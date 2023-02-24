@@ -9,7 +9,7 @@ export async function getStaticPaths() {
         params: { id: bounty.challengeId },
       };
     }),
-    fallback: false, // can also be true or 'blocking'
+    fallback: false,
   };
 }
 
