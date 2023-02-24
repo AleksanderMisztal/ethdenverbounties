@@ -25,11 +25,16 @@ export function getStaticProps(context) {
 }
 
 const Bounty = ({ bounty }) => {
-  const description = bounty.description.replace(/<\/?[^>]+(>|$)/g, '');
-  const acceptanceCriteria = bounty.acceptanceCriteria.replace(
-    /<\/?[^>]+(>|$)/g,
-    ''
-  );
+  const description = bounty.description
+    .replace(/<p>|<\/p>/g, '\n')
+    .replace(/<\/?[^>]+(>|$)/g, '')
+    .replace(/\n+/g, '\n')
+    .trim();
+  const acceptanceCriteria = bounty.acceptanceCriteria
+    .replace(/<p>|<\/p>/g, '\n')
+    .replace(/<\/?[^>]+(>|$)/g, '')
+    .replace(/\n+/g, '\n')
+    .trim();
 
   const [show, setShow] = useState(false);
 
@@ -40,12 +45,12 @@ const Bounty = ({ bounty }) => {
       </div>
       <h1 className="text-xl font-bold">{bounty.name}</h1>
       <h4 className="text-xl mt-6">Description</h4>
-      <p>{description}</p>
+      <p className="whitespace-pre-wrap">{description}</p>
       <h4 className="text-xl mt-6">Acceptance criteria</h4>
-      <p>{acceptanceCriteria}</p>
+      <p className="whitespace-pre-wrap">{acceptanceCriteria}</p>
       <h4 className="text-xl mt-6">Rewards</h4>
       {bounty.rewardPool ? (
-        <p>{bounty.rewardPool}</p>
+        <p>{bounty.rewardPool} reward pool</p>
       ) : (
         <ul>
           {bounty.rewards.map((reward, i) => (
