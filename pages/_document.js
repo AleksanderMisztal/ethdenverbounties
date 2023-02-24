@@ -23,8 +23,8 @@ export default function Document() {
     <Html lang="en">
       <Head />
       <Footer />
-      <body className={'bg-gray-600 text-white'}>
-        <main className="container mx-auto xl:w-2/3 p-6 bg-gray-900 rounded-lg">
+      <body className="bg-gray-600 text-white">
+        <main className="mx-auto w-[fit-content] p-6 bg-gray-900 rounded-lg">
           <Main />
           <NextScript />
         </main>

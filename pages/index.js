@@ -19,24 +19,20 @@ export async function getStaticProps(context) {
 
 export default function Home({ bounties }) {
   return (
-    <table>
+    <table className="inline-block whitespace-nowrap text-left">
       <thead>
         <tr>
-          <th className="text-left">Bounties</th>
-          <th className="text-left">Sponsor</th>
-          <th className="text-left">Description</th>
+          <th>Bounties</th>
+          <th>Sponsor</th>
+          <th>Description</th>
         </tr>
       </thead>
       <tbody>
         {bounties.map((project) => (
           <tr key={project.id}>
-            <td className="text-left font-normal whitespace-nowrap">
-              {project.rewards} USD
-            </td>
-            <td className="text-left font-normal whitespace-nowrap">
-              {project.org}
-            </td>
-            <td className="text-left font-normal whitespace-nowrap">
+            <td className="font-normal">{project.rewards} USD</td>
+            <td className="font-normal">{project.org}</td>
+            <td className="font-normal">
               <a href={`/bounty/${project.id}`}>{project.name}</a>
             </td>
           </tr>
