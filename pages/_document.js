@@ -24,7 +24,7 @@ export default function Document() {
       <Head />
       <Footer />
       <body className={'bg-gray-600 text-white'}>
-        <main className="container mx-auto w-2/3 p-6 bg-gray-900 rounded-lg">
+        <main className="container mx-auto xl:w-2/3 p-6 bg-gray-900 rounded-lg">
           <Main />
           <NextScript />
         </main>
