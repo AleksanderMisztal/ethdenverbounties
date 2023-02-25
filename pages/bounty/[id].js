@@ -56,12 +56,18 @@ const Bounty = ({ bounty }) => {
 
       <h4 className="text-xl mt-6">Resources</h4>
       {bounty.resources && (
-        <dl>
-          {bounty.resources.map(({description, resourceUrl}) => (
-            <>
-              <dt>{description}</dt>
-              <dd><a href={resourceUrl} target="_blank">{resourceUrl}</a></dd>
-            </>
+        <dl className="grid gap-4">
+          {bounty.resources.map(({ description, resourceUrl }, i) => (
+            <div key={i}>
+              <dt className="font-bold text-l">{description}</dt>
+              <dd>
+                <a href={resourceUrl} target="_blank">
+                  {resourceUrl.match(/https:\/\/www.youtube.com\/watch\?v=([^/]*)/) ? (
+                    <iframe width="800" height="450" src={`https://www.youtube-nocookie.com/embed/${resourceUrl.match(/https:\/\/www.youtube.com\/watch\?v=([^/]*)/)[1]}`} frameborder="0" allow="autoplay; encrypted-media" allowfullscreen />
+                  ) : resourceUrl}
+                </a>
+              </dd>
+            </div>
           ))}
         </dl>
       )}
