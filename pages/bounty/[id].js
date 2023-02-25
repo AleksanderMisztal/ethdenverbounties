@@ -60,12 +60,25 @@ const Bounty = ({ bounty }) => {
           ))}
         </ul>
       )}
+
+      {bounty.resources && (
+        <dl>
+          {bounty.resources.map(({description, resourceUrl}) => (
+            <>
+              <dt>{description}</dt>
+              <dd><a href={resourceUrl} target="_blank">{resourceUrl}</a></dd>
+            </>
+          ))}
+        </dl>
+      )}
+
       <button
         className="bg-green-900 rounded-lg p-2 mt-3"
         onClick={() => setShow(!show)}
       >
         {show ? 'Hide' : 'Show all info'}
       </button>
+
       {show && <p>{JSON.stringify(bounty)}</p>}
     </>
   );
