@@ -152,6 +152,469 @@
       "resultPublished": false
     },
     {
+      "challengeId": "0e8446ac-c3ba-4ed4-80d0-1a22594c479a",
+      "trackId": "5bec93fc-a03d-4dea-a580-f53a92c54257",
+      "name": "Dynamic On-chain dWeb Applications Using web3:// Access Protocol",
+      "description": "<p>Current decentralized websites (dWebs) mainly use IPFS/AR to store static content with additional trust and limited capabilities. This bounty will encourage developers to create dynamic dWebs on smart contracts including dynamic NFTs, static websites, or powerful dynamic websites with multiple user interactions.&nbsp; We further encourage developers to use web3:// (defined in ERC-4804) to access these static/dynamic websites in a verifiable and minimum-trust way.<br><br>A couple of existing examples can be found at web3url.io, including<br>- Rendering mainnet NFTs<br>- Vitalik's blog on Arbitrum Nova<br>- Decentralized web2 applications (dropbox, blogger, etc) on EthStorage testnet</p><p></p><p>5 Projects can win 1000$ in USDC each</p>",
+      "acceptanceCriteria": "<p>- Entry Level: Use web3:// and its gateways (w3eth.io and w3link.io) to resolve a web resource on any EVM (Preferred mainnet/testnet/L2).&nbsp; E.g., images of NFT, static text.</p><p>- Medium Level: Use ERC-5018 and EthFS-Uploader (from npm) to upload local files on-chain (e.g., personal website like Vitalik's blog)</p><p>- High Level and highly encourged: Run dynamic on-chain dWeb applications with multiple user interactions (e.g., Forever Pixel War, etc)</p><p><br>A couple of existing examples can be found at w3eth.io(https://w3url.w3eth.io/) including Vitalik's blog on Arbitrum Nova (https://www.reddit.com/r/ethereum/comments/107ok8e/upload_40mb_vitaliks_blog_to_a_smart_contract_on/).<br><br>We will review and rank the submitted projects based on the completeness, the difficulties, and the innovations of the project.</p><p><br></p><p>Surprise us with your creativity!</p>",
+      "logoUrl": null,
+      "approvalStatus": "accepted",
+      "submittedByOrgId": "e0d67316-807c-4e2d-8711-0222efd4e66a",
+      "submittedByOrgName": "ETHStorage",
+      "submittedByOrgLogo": "https://org-resources.s3.amazonaws.com/e0d67316-807c-4e2d-8711-0222efd4e66a/logo/logo.jpg",
+      "tags": [],
+      "rewardPool": "5000",
+      "rewardChain": "Ethereum",
+      "rewardToken": "USDC",
+      "resources": [
+        {
+          "resourceUrl": "web3url.io",
+          "description": "web3url.io, the website introducing web3:// URLs and some examples"
+        },
+        {
+          "resourceUrl": "https://eips.ethereum.org/EIPS/eip-4804",
+          "description": "ERC-4804 https://eips.ethereum.org/EIPS/eip-4804, the full standard"
+        },
+        {
+          "resourceUrl": "https://www.reddit.com/r/ethereum/comments/107ok8e/upload_40mb_vitaliks_blog_to_a_smart_contract_on/",
+          "description": "Vitalik's blog forever hosted on Ethereum L2"
+        },
+        {
+          "resourceUrl": "https://socket.dev/npm/package/ethfs-uploader",
+          "description": "EthFS-uploader, using smart contracts to service a filesystem based on ERC-5018 and the uploader to sync local files"
+        },
+        {
+          "resourceUrl": "EthStorage.io",
+          "description": "Advanced - EthStorage.io, scaling Ethereum storage via L2 and DA"
+        }
+      ],
+      "rewards": [],
+      "judgingParameters": [
+        {
+          "parameter": "Technical",
+          "maxScore": "100"
+        },
+        {
+          "parameter": "UX & Design",
+          "maxScore": "100"
+        },
+        {
+          "parameter": "Innovation",
+          "maxScore": "100"
+        },
+        {
+          "parameter": "Creativity",
+          "maxScore": "100"
+        }
+      ],
+      "minJudgeCount": null,
+      "resultPublished": false
+    },
+    {
+      "challengeId": "96d0678e-8f30-4e2f-b1ce-df3e70c7b9a6",
+      "trackId": "5bec93fc-a03d-4dea-a580-f53a92c54257",
+      "name": "Use a GMP Protocol to Remotely Call a Contract",
+      "description": "<p>General Message Passing (GMP) Protocols allow you to send messages to other chains, including messages that contain contract call data and can trigger actions on remote chains such as buying an NFT, making a swap, &amp; much more.<br><br>Moonbeam has integrated with a variety of GMP Protocols including Axelar, Hyperlane, LayerZero, Wormhole &amp; of course, Polkadot's native XCM. These protocols make it truly easy to call a contract on a remote chain - all you need to do is specify the destination chain, the contract address you want to interact with, and the payload (contract call data). It’s that simple. <br><br>In order to be eligible for this bounty, your dApp should have at least some smart contract logic deployed to Moonbeam or Moonbase Alpha. Secondly, it needs to implement a cross-chain contract call that plays a non-trivial role in the application. As an example, if you’re building a cross-chain DEX, a cross-chain contract call that sends a message “HELLO WORLD” to another chain at random intervals would be considered trivial and not related to the dApp’s purpose.</p><p></p><p><strong><br>Getting Help</strong> - The <strong>Hackathons </strong>Channel in the Moonbeam Discord is the fastest way to get help. Of course, there will also be in-person support available during the Core Event. https://discord.com/invite/gA3YN6HmBA</p>",
+      "acceptanceCriteria": "<p>Judging<br>All Moonbeam bounties will be judged according to the standard ethDenver judging guidelines - that is: <br>Theme Fit<br>Originality &amp; Innovation<br>Ease of use (UI/UX)<br>Sustainability (marketplace viability)<br>Technical complexity<br>Level of Completion<br><br>We reserve the right to withhold prizes in cases where low-quality submissions do not meet our bounty requirements.</p><p></p><p>Sponsor Bounty Judging Team<br>Alberto Viera, Developer Relations Manager<br>Katie Butler, Director of Marketing<br>Stephen Shelton, Senior Blockchain Engineer<br>Kevin Neilson, Developer Relations Engineer</p>",
+      "logoUrl": null,
+      "approvalStatus": "accepted",
+      "submittedByOrgId": "2760b058-eabf-4495-95db-dfb94038fe35",
+      "submittedByOrgName": "Moonbeam",
+      "submittedByOrgLogo": "https://org-resources.s3.amazonaws.com/2760b058-eabf-4495-95db-dfb94038fe35/logo/logo.jpg",
+      "tags": [],
+      "rewardPool": null,
+      "rewardChain": "Ethereum",
+      "rewardToken": "USDC",
+      "resources": [
+        {
+          "resourceUrl": "https://moonbeam.network/blog/connected-contracts-axelar/",
+          "description": "https://moonbeam.network/blog/connected-contracts-axelar/"
+        },
+        {
+          "resourceUrl": "https://moonbeam.network/blog/connected-contracts-with-hyperlane/",
+          "description": "https://moonbeam.network/blog/connected-contracts-with-hyperlane/"
+        },
+        {
+          "resourceUrl": "https://moonbeam.network/blog/connected-contracts-layerzero/",
+          "description": "https://moonbeam.network/blog/connected-contracts-layerzero/"
+        },
+        {
+          "resourceUrl": "https://moonbeam.network/blog/connected-contracts-wormhole/",
+          "description": "https://moonbeam.network/blog/connected-contracts-wormhole/"
+        },
+        {
+          "resourceUrl": "https://docs.moonbeam.network/builders/interoperability/xcm/overview/",
+          "description": "https://docs.moonbeam.network/builders/interoperability/xcm/overview/"
+        },
+        {
+          "resourceUrl": "https://github.com/PureStake/Moonbuilders-Hackathon-Survival-Kit",
+          "description": "https://github.com/PureStake/Moonbuilders-Hackathon-Survival-Kit"
+        },
+        {
+          "resourceUrl": "https://www.youtube.com/watch?v=vEVXRlzZt5k",
+          "description": "Bounty video"
+        },
+        {
+          "resourceUrl": "https://www.youtube.com/watch?v=dkgoKeUl4Ew",
+          "description": "Judging video"
+        }
+      ],
+      "rewards": [
+        {
+          "winnerRank": 0,
+          "rewardAmountUsd": "4000"
+        },
+        {
+          "winnerRank": 1,
+          "rewardAmountUsd": "1000"
+        }
+      ],
+      "judgingParameters": [
+        {
+          "parameter": "Technical",
+          "maxScore": "100"
+        },
+        {
+          "parameter": "UX & Design",
+          "maxScore": "100"
+        },
+        {
+          "parameter": "Innovation",
+          "maxScore": "100"
+        },
+        {
+          "parameter": "Creativity",
+          "maxScore": "100"
+        }
+      ],
+      "minJudgeCount": null,
+      "resultPublished": false
+    },
+    {
+      "challengeId": "bafc15fa-e86e-4727-b2d9-be4eb3608ffd",
+      "trackId": "5bec93fc-a03d-4dea-a580-f53a92c54257",
+      "name": "Smart Contracts in Sway",
+      "description": "<p>Build a smart contract in Sway, a Rust-based language</p>",
+      "acceptanceCriteria": "<p>Project must be deployed on Fuel and it must include smart contracts written in Sway, Fuel's rust based DSL. Please show a steady commit trail or provenance and thought process e.g. sketches, discussion, and issues on how you arrived at the decision to incorporate this feature.&nbsp;</p><p></p><p>Judging criteria:</p><ol><li><p><strong>Technical Implementation:</strong> Technical implementation and quality of contract deployed on testnet Weight = 3</p></li><li><p><strong>Design:</strong> Quality of the UI/UX of the Fuel dapp and Sway smart contract Weight = 2</p></li><li><p><strong>Creativity:</strong> The submission should be built with creativity in mind to reflect the team’s passion for building with Sway Weight = 2</p></li><li><p><strong>Quality of Idea:</strong> Quality of the idea/use-case/problem statement. A unique project stands a higher chance to win than one that has been implemented before Weight = 2</p></li></ol><p><strong>Developer Feedback: </strong>Quality and quantity of feedback and questions on the experience of building with Fuel in the developer forum (https://forum.fuel.network/) Weight = 1</p>",
+      "logoUrl": null,
+      "approvalStatus": "accepted",
+      "submittedByOrgId": "cf4faee5-1f6f-45c2-b055-3f00ea8a6149",
+      "submittedByOrgName": "Fuel Labs",
+      "submittedByOrgLogo": "https://org-resources.s3.amazonaws.com/cf4faee5-1f6f-45c2-b055-3f00ea8a6149/logo/logo.png",
+      "tags": [],
+      "rewardPool": null,
+      "rewardChain": "Ethereum",
+      "rewardToken": "USDC",
+      "resources": [
+        {
+          "resourceUrl": "https://fuellabs.github.io/fuel-docs/master/",
+          "description": "https://fuellabs.github.io/fuel-docs/master/"
+        },
+        {
+          "resourceUrl": "https://github.com/FuelLabs/sway-applications/",
+          "description": "https://github.com/FuelLabs/sway-applications/"
+        },
+        {
+          "resourceUrl": "https://fuellabs.github.io/sway/master/book/",
+          "description": "https://fuellabs.github.io/sway/master/book/"
+        }
+      ],
+      "rewards": [
+        {
+          "winnerRank": 0,
+          "rewardAmountUsd": "1000"
+        },
+        {
+          "winnerRank": 1,
+          "rewardAmountUsd": "1000"
+        }
+      ],
+      "judgingParameters": [
+        {
+          "parameter": "Technical",
+          "maxScore": "300"
+        },
+        {
+          "parameter": "UX & Design",
+          "maxScore": "200"
+        },
+        {
+          "parameter": "Creativity",
+          "maxScore": "200"
+        },
+        {
+          "parameter": "Quality of Idea",
+          "maxScore": "200"
+        },
+        {
+          "parameter": "Developer Feedback",
+          "maxScore": "100"
+        }
+      ],
+      "minJudgeCount": null,
+      "resultPublished": false
+    },
+    {
+      "challengeId": "4a0d6b63-cc2c-446c-bf4a-505cf830e5d0",
+      "trackId": "5bec93fc-a03d-4dea-a580-f53a92c54257",
+      "name": "Improve fRPC Substrate",
+      "description": "<p>Number of Bounties: 3</p><p></p><p>Improve the fRPC Starter substrate to make it more general, robust or performant. Improvements which may include * expanding the available set of blockchain API providers, i.e., Infura, Alchemy, and Link * creating an fRPC \"\"balancer\"\" for real-time blockchain API provider selection according to discriminators such as geolocation, reputation or availability * adding additional RPC methods to accommodate specific or custom EVM implementations * supporting different API key submissions mechanisms such as a string in the request header.</p>",
+      "acceptanceCriteria": "<p>Fork the fRPC Starter repo, generously document your solution, provide a dockerized demo of your solution and provide a three to five minute video shilling your masterpiece.</p>",
+      "logoUrl": null,
+      "approvalStatus": "accepted",
+      "submittedByOrgId": "b94030ef-e65a-4c31-bc31-03ae6f9cdb0c",
+      "submittedByOrgName": "Fluence",
+      "submittedByOrgLogo": "https://org-resources.s3.amazonaws.com/b94030ef-e65a-4c31-bc31-03ae6f9cdb0c/logo/logo.jpg",
+      "tags": [],
+      "rewardPool": null,
+      "rewardChain": "Ethereum",
+      "rewardToken": "ETH",
+      "resources": [
+        {
+          "resourceUrl": "https://github.com/fluencelabs/ethdenver-2023/blob/main/README.md",
+          "description": "Repo Readme"
+        },
+        {
+          "resourceUrl": "https://www.youtube.com/watch?v=Y264TTUytwM",
+          "description": "Bounty video"
+        }
+      ],
+      "rewards": [
+        {
+          "winnerRank": 0,
+          "rewardAmountUsd": "3000"
+        },
+        {
+          "winnerRank": 1,
+          "rewardAmountUsd": "2000"
+        },
+        {
+          "winnerRank": 2,
+          "rewardAmountUsd": "1000"
+        }
+      ],
+      "judgingParameters": [
+        {
+          "parameter": "Technical",
+          "maxScore": "100"
+        },
+        {
+          "parameter": "UX & Design",
+          "maxScore": "100"
+        },
+        {
+          "parameter": "Innovation",
+          "maxScore": "100"
+        },
+        {
+          "parameter": "Creativity",
+          "maxScore": "100"
+        }
+      ],
+      "minJudgeCount": null,
+      "resultPublished": false
+    },
+    {
+      "challengeId": "33b51e2f-b72f-48ad-a7af-bf819b2dcc6e",
+      "trackId": "5bec93fc-a03d-4dea-a580-f53a92c54257",
+      "name": "MetaMask Snaps - Identity 🪪 & Communication 💬",
+      "description": "<p>Build a snap that helps end users with their decentralized identity and/or web3 communications.&nbsp;<br><br><strong>About</strong><br>Extend the functionality of MetaMask. The most popular wallet is now an extensible platform for permissionless innovation. Bring your features and APIs to MetaMask with Snaps.<br><br>A Snap is a program run in an isolated environment that customizes and extends the wallet experience. We are looking for new and interesting use cases to modify MetaMask using Snaps.</p>",
+      "acceptanceCriteria": "<p><strong>Submission requirements</strong><br>Novel - We are looking for new and interesting use cases made possible only via the Snaps platform. Snaps must extend wallet functionality in a meaningful way. Simple use cases where the dapp could have existed without a Snap will not be awarded.<br>Derp - Repos must contain a text file named “spork.txt” with the phrase “Denver lays claim to the invention of the cheeseburger” This attention to detail helps us reward genuine effort and identify quality projects. <br>Monorepo - Use a monorepo structure (scaffold projects with the guide or the CLI to get started). Feel free to construct a more complex front-end React.<br>README - README should detail what the project is, what it aims to accomplish, steps for running locally etc. <br>Run It - Submissions must hosted or runnable locally<br><br><br><strong>Judging Criteria</strong><br>Innovative - The project uses Snaps in a novel way. It explores something that couldn’t be done before.<br>Impact - Does the solution provide something useful to the users?<br>Functional - Does the solution actually work?</p>",
+      "logoUrl": null,
+      "approvalStatus": "accepted",
+      "submittedByOrgId": "a301ff9b-d07c-419b-9bbb-6da09bd7423a",
+      "submittedByOrgName": "MetaMask Snaps",
+      "submittedByOrgLogo": "https://org-resources.s3.amazonaws.com/a301ff9b-d07c-419b-9bbb-6da09bd7423a/logo/logo.png",
+      "tags": [],
+      "rewardPool": null,
+      "rewardChain": "Ethereum",
+      "rewardToken": "USDC",
+      "resources": [
+        {
+          "resourceUrl": "https://ethglobal.com/guides/introduction-to-metamask-snaps-54ej1",
+          "description": "Intro guide"
+        },
+        {
+          "resourceUrl": "https://docs.metamask.io/guide/snaps.html",
+          "description": "Dev docs"
+        },
+        {
+          "resourceUrl": "https://github.com/MetaMask/snaps-monorepo/discussions/675 ",
+          "description": "GitHub"
+        },
+        {
+          "resourceUrl": "https://discord.gg/pVJMaDQt3b \t",
+          "description": "Technical support via Discord"
+        },
+        {
+          "resourceUrl": "https://twitter.com/metamaskdev",
+          "description": "Twitter"
+        },
+        {
+          "resourceUrl": "https://www.youtube.com/watch?v=6-VB978ZcrU",
+          "description": "Bounty video"
+        },
+        {
+          "resourceUrl": "https://www.youtube.com/watch?v=xRHQOZtBiKI",
+          "description": "Judging video"
+        }
+      ],
+      "rewards": [
+        {
+          "winnerRank": 0,
+          "rewardAmountUsd": "3000"
+        },
+        {
+          "winnerRank": 1,
+          "rewardAmountUsd": "2000"
+        },
+        {
+          "winnerRank": 2,
+          "rewardAmountUsd": "1000"
+        },
+        {
+          "winnerRank": 3,
+          "rewardAmountUsd": "1000"
+        }
+      ],
+      "judgingParameters": [
+        {
+          "parameter": "Technical",
+          "maxScore": "100"
+        },
+        {
+          "parameter": "UX & Design",
+          "maxScore": "100"
+        },
+        {
+          "parameter": "Innovation",
+          "maxScore": "100"
+        },
+        {
+          "parameter": "Creativity",
+          "maxScore": "100"
+        }
+      ],
+      "minJudgeCount": null,
+      "resultPublished": false
+    },
+    {
+      "challengeId": "caa514c9-27d1-4b21-8745-ca919c803e56",
+      "trackId": "5bec93fc-a03d-4dea-a580-f53a92c54257",
+      "name": "Game7 - Expand and Improve Diamond Blueprinter",
+      "description": "<p>The problem experienced by the greatest number of Web3 Developers in the development of Web3 products as cited in the&nbsp;G7 Industry Report was a lack of off-the-shelf smart contracts that are commonly used. The contracts should be easy to find, should be queryable by common use cases, should be secure and should be battle tested.<br><br>The Diamond Blueprinter (https://github.com/G7DAO/diamond-blueprinter#) organizes these functions as commonly used contracts that meet common use cases and still allows the developer to further customize the contract to meet their specific needs.<br><br>Suggestion<br><br>Add a library of facets to the G7DAO Diamond Blueprinter [https://github.com/G7DAO/diamond-blueprinter] repository.<br><br>Roadmap also holds multiple ideas you can utilize:<br>https://github.com/G7DAO/diamond-blueprinter#diamond-blueprinter-roadmap<br><br>In addition, any submission(s) that pass the eligibility criteria and receive a bounty will be prioritized for a subsequent Game7 grant as an extended engagement. We truly believe that any products/tools being built as a part of this prompt will greatly benefit the web3 gaming space. If there are any teams that want to continue building out their projects after the event, we are happy to explore ways for you to obtain funding in the form of grants!</p>",
+      "acceptanceCriteria": "<p>- Objective usefulness for web3 community and users of Blueprinter<br>- Completeness and Implementation of the submission<br>- Technical Execution</p><p><br></p><p>We reserve the right to withhold prizing in cases where low-quality submissions do not meet our bounty requirements.</p>",
+      "logoUrl": null,
+      "approvalStatus": "accepted",
+      "submittedByOrgId": "02a5b353-1f9b-4adf-afc7-f12415eb2d51",
+      "submittedByOrgName": "Game7",
+      "submittedByOrgLogo": "https://org-resources.s3.amazonaws.com/02a5b353-1f9b-4adf-afc7-f12415eb2d51/logo/logo.jpg",
+      "tags": [],
+      "rewardPool": null,
+      "rewardChain": "Ethereum",
+      "rewardToken": "USDC",
+      "resources": [
+        {
+          "resourceUrl": "https://github.com/G7DAO/diamond-blueprinter",
+          "description": "GitHub - https://github.com/G7DAO/diamond-blueprinter"
+        },
+        {
+          "resourceUrl": "https://eips.ethereum.org/EIPS/eip",
+          "description": " EIP-2535 - https://eips.ethereum.org/EIPS/eip"
+        },
+        {
+          "resourceUrl": "https://www.youtube.com/watch?v=JlU_VkyajEY",
+          "description": "Bounty video"
+        }
+      ],
+      "rewards": [
+        {
+          "winnerRank": 0,
+          "rewardAmountUsd": "1000"
+        }
+      ],
+      "judgingParameters": [
+        {
+          "parameter": "Technical",
+          "maxScore": "100"
+        },
+        {
+          "parameter": "UX & Design",
+          "maxScore": "100"
+        },
+        {
+          "parameter": "Innovation",
+          "maxScore": "100"
+        },
+        {
+          "parameter": "Creativity",
+          "maxScore": "100"
+        }
+      ],
+      "minJudgeCount": null,
+      "resultPublished": false
+    },
+    {
+      "challengeId": "126292a9-b953-45b5-afc8-7c5e54079a6f",
+      "trackId": "5bec93fc-a03d-4dea-a580-f53a92c54257",
+      "name": "Game7 - Auto-approve transactions using Metamask Snaps",
+      "description": "<p>Every time a web3 game wants to do an in-game transaction, a Metamask window pops up to sign the transaction, which offers bad UX by breaking the flow of the game****<br><br>A Metamask Snap allows specific transaction profiles to be automatically signed and submitted to the blockchain, bypassing the Metamask pop-up window and allowing a smooth in-game experience<br><br>Metamask Snaps can be used to generate and sign transactions on the user's behalf.<br>To ensure user safety, this snap will clearly define which smart contract, which function call, and the range of acceptable parameters.<br><br>We ask you to improve AutoTx Snap - https://github.com/G7DAO/AutoTx<br><br>For example, by adding the ability to pre-approve based on max spend ahead of time. Or any other user experience solution you might see fit.</p>",
+      "acceptanceCriteria": "<ul><li><p>Objective usefulness for web3 community and users of Blueprinter</p></li><li><p>Completeness and Implementation of the submission</p></li><li><p>Technical Execution</p></li></ul><p><br></p><p>In addition, any submission(s) that pass the eligibility criteria and receive a bounty will be prioritized for a subsequent Game7 grant as an extended engagement. We truly believe that any products/tools being built as a part of this prompt will greatly benefit the web3 gaming space. If there are any teams that want to continue building out their projects after the event, we are happy to explore ways for you to obtain funding in the form of grants!</p>",
+      "logoUrl": null,
+      "approvalStatus": "accepted",
+      "submittedByOrgId": "02a5b353-1f9b-4adf-afc7-f12415eb2d51",
+      "submittedByOrgName": "Game7",
+      "submittedByOrgLogo": "https://org-resources.s3.amazonaws.com/02a5b353-1f9b-4adf-afc7-f12415eb2d51/logo/logo.jpg",
+      "tags": [],
+      "rewardPool": null,
+      "rewardChain": "Ethereum",
+      "rewardToken": "USDC",
+      "resources": [
+        {
+          "resourceUrl": "https://github.com/G7DAO/AutoTx",
+          "description": "Github - https://github.com/G7DAO/AutoTx "
+        },
+        {
+          "resourceUrl": "https://metamask.io/snaps",
+          "description": "Metamask Snaps - https://metamask.io/snaps"
+        },
+        {
+          "resourceUrl": "https://www.youtube.com/watch?v=JlU_VkyajEY",
+          "description": "Bounty video"
+        }
+      ],
+      "rewards": [
+        {
+          "winnerRank": 0,
+          "rewardAmountUsd": "1000"
+        },
+        {
+          "winnerRank": 1,
+          "rewardAmountUsd": "0"
+        }
+      ],
+      "judgingParameters": [
+        {
+          "parameter": "Technical",
+          "maxScore": "100"
+        },
+        {
+          "parameter": "UX & Design",
+          "maxScore": "100"
+        },
+        {
+          "parameter": "Innovation",
+          "maxScore": "100"
+        },
+        {
+          "parameter": "Creativity",
+          "maxScore": "100"
+        }
+      ],
+      "minJudgeCount": null,
+      "resultPublished": false
+    },
+    {
       "challengeId": "f68ee025-5d07-4e12-92d5-32356597d2b1",
       "trackId": "5bec93fc-a03d-4dea-a580-f53a92c54257",
       "name": "Moonstream.to - Dungeon masters for on-chain games",
@@ -173,6 +636,58 @@
         },
         {
           "resourceUrl": "https://www.youtube.com/watch?v=JlU_VkyajEY",
+          "description": "Bounty video"
+        }
+      ],
+      "rewards": [
+        {
+          "winnerRank": 0,
+          "rewardAmountUsd": "1000"
+        }
+      ],
+      "judgingParameters": [
+        {
+          "parameter": "Technical",
+          "maxScore": "100"
+        },
+        {
+          "parameter": "UX & Design",
+          "maxScore": "100"
+        },
+        {
+          "parameter": "Innovation",
+          "maxScore": "100"
+        },
+        {
+          "parameter": "Creativity",
+          "maxScore": "100"
+        }
+      ],
+      "minJudgeCount": null,
+      "resultPublished": false
+    },
+    {
+      "challengeId": "5bf93483-45fe-4209-9147-74391cefbfad",
+      "trackId": "5bec93fc-a03d-4dea-a580-f53a92c54257",
+      "name": "Threadoooooor for mantle",
+      "description": "<p>Best thread on</p><p> - EigenDA</p><p>- Account abstraction</p><p>- Mantle’s sequencer / fraud proofs</p>",
+      "acceptanceCriteria": "<p>Write the best thread (technical or otherwise) on Mantle (check out the docs page for inspiration!)</p><p>You must tag @0xmantle on Twitter</p>",
+      "logoUrl": null,
+      "approvalStatus": "accepted",
+      "submittedByOrgId": "5d0df6ba-fa3a-49d3-b06a-f0eab124fcf4",
+      "submittedByOrgName": "Mantle",
+      "submittedByOrgLogo": "https://org-resources.s3.amazonaws.com/5d0df6ba-fa3a-49d3-b06a-f0eab124fcf4/logo/logo.png",
+      "tags": [],
+      "rewardPool": null,
+      "rewardChain": "Ethereum",
+      "rewardToken": "USDC",
+      "resources": [
+        {
+          "resourceUrl": "http://docs.mantle.xyz/ https://typefully.com/ ",
+          "description": "Info"
+        },
+        {
+          "resourceUrl": "https://www.youtube.com/watch?v=pZKAPvYOTLc",
           "description": "Bounty video"
         }
       ],
@@ -355,58 +870,6 @@
       "rewardChain": "Ethereum",
       "rewardToken": "ETH",
       "resources": [
-        {
-          "resourceUrl": "https://www.youtube.com/watch?v=pZKAPvYOTLc",
-          "description": "Bounty video"
-        }
-      ],
-      "rewards": [
-        {
-          "winnerRank": 0,
-          "rewardAmountUsd": "1000"
-        }
-      ],
-      "judgingParameters": [
-        {
-          "parameter": "Technical",
-          "maxScore": "100"
-        },
-        {
-          "parameter": "UX & Design",
-          "maxScore": "100"
-        },
-        {
-          "parameter": "Innovation",
-          "maxScore": "100"
-        },
-        {
-          "parameter": "Creativity",
-          "maxScore": "100"
-        }
-      ],
-      "minJudgeCount": null,
-      "resultPublished": false
-    },
-    {
-      "challengeId": "5bf93483-45fe-4209-9147-74391cefbfad",
-      "trackId": "5bec93fc-a03d-4dea-a580-f53a92c54257",
-      "name": "Threadoooooor for mantle",
-      "description": "<p>Best thread on - EigenDA </p><p>- Account abstraction </p><p>- Mantle’s sequencer / fraud proofs Criteria Write the best thread (technical or otherwise) on Mantle </p><p>  (check out the docs page for inspiration!) </p><p></p>",
-      "acceptanceCriteria": "<p>(Clarify what you mean by thread- twitter thread? Blogpost?)</p><p>You must tag @0xmantle on Twitter</p>",
-      "logoUrl": null,
-      "approvalStatus": "accepted",
-      "submittedByOrgId": "5d0df6ba-fa3a-49d3-b06a-f0eab124fcf4",
-      "submittedByOrgName": "Mantle",
-      "submittedByOrgLogo": "https://org-resources.s3.amazonaws.com/5d0df6ba-fa3a-49d3-b06a-f0eab124fcf4/logo/logo.png",
-      "tags": [],
-      "rewardPool": null,
-      "rewardChain": "Ethereum",
-      "rewardToken": "ETH",
-      "resources": [
-        {
-          "resourceUrl": "http://docs.mantle.xyz/ https://typefully.com/ ",
-          "description": "Info"
-        },
         {
           "resourceUrl": "https://www.youtube.com/watch?v=pZKAPvYOTLc",
           "description": "Bounty video"
@@ -909,9 +1372,9 @@
       "acceptanceCriteria": "<p>In order to be eligible for this bounty, we expect to see:</p><p>- You start by unboxing a L2 Truffle box by using the CLI or VS Code in your demo video</p><p>- The project is deployed on an Infura L2 endpoint (configured in your truffle-config.js)</p><p>- Judging will lean towards full MVPs </p><p>- A list of challenges and benefits when using Infura and the Truffle suite of tools</p><p>- Bonus points if you build a multi-chain dapp and test with multiple instances of detached ganache in your demo video</p>",
       "logoUrl": null,
       "approvalStatus": "accepted",
-      "submittedByOrgId": "be93dd04-b55f-40fa-8065-4e6d03c59d5c",
-      "submittedByOrgName": "Consensys",
-      "submittedByOrgLogo": "https://org-resources.s3.amazonaws.com/be93dd04-b55f-40fa-8065-4e6d03c59d5c/logo/logo.png",
+      "submittedByOrgId": "a7449e8f-3311-4fb2-b0b3-567170b65104",
+      "submittedByOrgName": "Infura",
+      "submittedByOrgLogo": "https://org-resources.s3.amazonaws.com/a7449e8f-3311-4fb2-b0b3-567170b65104/logo/logo.jpg",
       "tags": [],
       "rewardPool": "1000",
       "rewardChain": "Ethereum",
@@ -1131,6 +1594,86 @@
       "resultPublished": false
     },
     {
+      "challengeId": "caceff4a-e63f-4829-97e4-1cae7af9656f",
+      "trackId": "5bec93fc-a03d-4dea-a580-f53a92c54257",
+      "name": "Create a Higher-level Unified client library for Cartesi",
+      "description": "<p>This bounty is to create a Higher-level Unified client library for Cartesi. Currently, Cartesi developers have to deal with three different interfaces:</p><p></p><ul><li><p><strong>JSON-RPC →</strong> for generating inputs to the Cartesi Rollups, using a web3 library to interface with a blockchain node, like ethers.js or web3.js.</p></li><li><p><strong>HTTP Rest →</strong> for interacting with the \"read-only\", inspect the API of the Cartesi node using an HTTP client library like Axios.</p></li><li><p><strong>GraphQL →</strong> for querying inputs and outputs of a Rollup DApp (reports, notices, and vouchers) using a client library like Relay.</p></li></ul><p></p><p>It would be great to have a wrapper library that abstracts the underlying connection using different protocols so that new developers can interact with Rollups DApps easier. The Rollups examples cli frontend could be a good resource for this feature bounty as it uses all three interfaces.</p>",
+      "acceptanceCriteria": "<p>The proposed solutions will mainly be evaluated based on these criteria:</p><p></p><ul><li><p>Completeness of the solution (cover use cases)</p></li><li><p>Elegance of the proposed API (simple, easy to use)</p></li><li><p>Quality of the solution (good design and implementation)</p></li></ul>",
+      "logoUrl": null,
+      "approvalStatus": "accepted",
+      "submittedByOrgId": "5a7c46e4-1e02-47c0-a72e-b48cfcf88afd",
+      "submittedByOrgName": "Cartesi",
+      "submittedByOrgLogo": "https://org-resources.s3.amazonaws.com/5a7c46e4-1e02-47c0-a72e-b48cfcf88afd/logo/logo.png",
+      "tags": [],
+      "rewardPool": null,
+      "rewardChain": "Ethereum",
+      "rewardToken": "USDC",
+      "resources": [
+        {
+          "resourceUrl": "https://docs.cartesi.io",
+          "description": "Docs → https://docs.cartesi.io"
+        },
+        {
+          "resourceUrl": "https://medium.com/@cartesi",
+          "description": "Blog → https://medium.com/@cartesi"
+        },
+        {
+          "resourceUrl": "https://github.com/cartesi/rollups-examples",
+          "description": "GitHub → https://github.com/cartesi/rollups-examples"
+        },
+        {
+          "resourceUrl": "https://bit.ly/cartesi-magazine",
+          "description": "Magazine → https://bit.ly/cartesi-magazine"
+        },
+        {
+          "resourceUrl": "https://bit.ly/cartesi-playlist",
+          "description": "Videos → https://bit.ly/cartesi-playlist"
+        },
+        {
+          "resourceUrl": "https://www.youtube.com/watch?v=l6olEHhtUEc",
+          "description": "Bounty video"
+        }
+      ],
+      "rewards": [
+        {
+          "winnerRank": 0,
+          "rewardAmountUsd": "3000"
+        },
+        {
+          "winnerRank": 1,
+          "rewardAmountUsd": "2000"
+        },
+        {
+          "winnerRank": 2,
+          "rewardAmountUsd": "1000"
+        },
+        {
+          "winnerRank": 3,
+          "rewardAmountUsd": "1000"
+        }
+      ],
+      "judgingParameters": [
+        {
+          "parameter": "Technical",
+          "maxScore": "100"
+        },
+        {
+          "parameter": "UX & Design",
+          "maxScore": "100"
+        },
+        {
+          "parameter": "Innovation",
+          "maxScore": "100"
+        },
+        {
+          "parameter": "Creativity",
+          "maxScore": "100"
+        }
+      ],
+      "minJudgeCount": null,
+      "resultPublished": false
+    },
+    {
       "challengeId": "cc00b787-42d7-48f0-8740-f5f54e76314d",
       "trackId": "5bec93fc-a03d-4dea-a580-f53a92c54257",
       "name": "Chainlink Functions",
@@ -1301,7 +1844,7 @@
       "trackId": "5bec93fc-a03d-4dea-a580-f53a92c54257",
       "name": "Extend SSX's Availability",
       "description": "<p><strong>Number of Bounties: 2 </strong></p><p></p><p>We're awarding teams that make open-source contributions to SSX, such as enabling it to support new developer environments (like those that are Python-based or even another frontend framework) to make Sign-In with Ethereum even easier to integrate into a dapp. </p>",
-      "acceptanceCriteria": "<p>The new contribution extends SSX beyond the frontend and backend frameworks currently supported. - Judging will lean more towards ease of use for a developer working with this new environment, so please make sure to include an example of how it can be integrated. - Please make sure to include relevant GitHub links with commits showing the integration process. Additionally, please make sure to open a PR to SSX as well (it's completely fine if it's a work in progress PR!) - Bonus if the extension to SSX is being used in an application for other bounty submissions.</p>",
+      "acceptanceCriteria": "<p>- The new contribution extends SSX beyond the frontend and backend frameworks currently supported.<br>- Judging will lean more towards ease of use for a developer working with this new environment, so please make sure to include an example of how it can be integrated. <br>- Please make sure to include relevant GitHub links with commits showing the integration process. Additionally, please make sure to open a PR to SSX as well (it's completely fine if it's a work in progress PR!) <br>- Bonus if the extension to SSX is being used in an application for other bounty submissions.</p>",
       "logoUrl": null,
       "approvalStatus": "accepted",
       "submittedByOrgId": "8d522fe2-15a5-48d2-b293-5e8aac76e157",
@@ -1310,23 +1853,23 @@
       "tags": [],
       "rewardPool": "4000",
       "rewardChain": "Ethereum",
-      "rewardToken": "ETH",
+      "rewardToken": "USDC",
       "resources": [
         {
           "resourceUrl": "https://docs.ssx.id/",
-          "description": "Docs"
+          "description": "SpruceID Docs"
         },
         {
           "resourceUrl": "https://docs.ssx.id/configuring-ssx",
-          "description": "Configuration"
+          "description": "Configuring SSX"
         },
         {
           "resourceUrl": "https://github.com/spruceid/ssx",
-          "description": "GitHub"
+          "description": "SpruceID on GitHub"
         },
         {
           "resourceUrl": "https://blog.developerdao.com/getting-started-with-ssx",
-          "description": "Guide"
+          "description": "Getting Started with SSX"
         },
         {
           "resourceUrl": "https://www.youtube.com/watch?v=CxS1skphBno",
@@ -2969,62 +3512,6 @@
       "resultPublished": false
     },
     {
-      "challengeId": "622196fa-1729-4a22-b4c5-bb54c2847f5f",
-      "trackId": "5bec93fc-a03d-4dea-a580-f53a92c54257",
-      "name": "Polygon NFT Analytics Challenge",
-      "description": "<p>We kicked off 2023 by welcoming Y00ts and DeGods to Polygon’s rapidly growing NFT community. </p><p>Create an analytics platform to empower any Polygon NFT project or holder to track performance, interact with their communities, and/or better understand the ecosystem. </p><p></p>",
-      "acceptanceCriteria": "<p>**Judging** will lean towards projects that are full MVPs, although a clean and creative implementation design, whitepaper, etc... is also acceptable if the contribution is novel.</p><p>- Is it a useful product for the community?</p><p>- Does it have a robust README detailing why Polygon is a great technology choice for the project?</p><p>- Have the builders created something that raises the bar for UX in web3?</p><p>- Please show a <strong>steady commit trail</strong> and thought process e.g. sketches, discussion, issues on how you arrived at the decision to incorporate this feature.</p><p>- List any **challenges or benefits** you encountered in the developer experience.</p>",
-      "logoUrl": null,
-      "approvalStatus": "accepted",
-      "submittedByOrgId": "0f8c6055-76e5-465c-8d05-9f23c8350e30",
-      "submittedByOrgName": "Polygon",
-      "submittedByOrgLogo": "https://org-resources.s3.amazonaws.com/0f8c6055-76e5-465c-8d05-9f23c8350e30/logo/logo.png",
-      "tags": [],
-      "rewardPool": null,
-      "rewardChain": "Ethereum",
-      "rewardToken": "ETH",
-      "resources": [
-        {
-          "resourceUrl": "https://wiki.polygon.technology/docs/develop/getting-started/",
-          "description": " Resources Check out our docs to deploy #onPolygon"
-        },
-        {
-          "resourceUrl": "https://www.youtube.com/watch?v=ta1Ws7UHzdM",
-          "description": "Bounty video"
-        }
-      ],
-      "rewards": [
-        {
-          "winnerRank": 0,
-          "rewardAmountUsd": "5000"
-        },
-        {
-          "winnerRank": 1,
-          "rewardAmountUsd": "5000"
-        }
-      ],
-      "judgingParameters": [
-        {
-          "parameter": "Technical",
-          "maxScore": "100"
-        },
-        {
-          "parameter": "UX & Design",
-          "maxScore": "100"
-        },
-        {
-          "parameter": "Innovation",
-          "maxScore": "100"
-        },
-        {
-          "parameter": "Creativity",
-          "maxScore": "100"
-        }
-      ],
-      "minJudgeCount": null,
-      "resultPublished": false
-    },
-    {
       "challengeId": "e50b15de-1307-41ca-96fc-23cf20d0d5b3",
       "trackId": "5bec93fc-a03d-4dea-a580-f53a92c54257",
       "name": "Unlock new potential using INTU’s Account Infrastructure",
@@ -3069,6 +3556,62 @@
         {
           "winnerRank": 2,
           "rewardAmountUsd": "1000"
+        }
+      ],
+      "judgingParameters": [
+        {
+          "parameter": "Technical",
+          "maxScore": "100"
+        },
+        {
+          "parameter": "UX & Design",
+          "maxScore": "100"
+        },
+        {
+          "parameter": "Innovation",
+          "maxScore": "100"
+        },
+        {
+          "parameter": "Creativity",
+          "maxScore": "100"
+        }
+      ],
+      "minJudgeCount": null,
+      "resultPublished": false
+    },
+    {
+      "challengeId": "622196fa-1729-4a22-b4c5-bb54c2847f5f",
+      "trackId": "5bec93fc-a03d-4dea-a580-f53a92c54257",
+      "name": "Polygon NFT Analytics Challenge",
+      "description": "<p>We kicked off 2023 by welcoming Y00ts and DeGods to Polygon’s rapidly growing NFT community. </p><p>Create an analytics platform to empower any Polygon NFT project or holder to track performance, interact with their communities, and/or better understand the ecosystem. </p><p></p>",
+      "acceptanceCriteria": "<p>**Judging** will lean towards projects that are full MVPs, although a clean and creative implementation design, whitepaper, etc... is also acceptable if the contribution is novel.</p><p>- Is it a useful product for the community?</p><p>- Does it have a robust README detailing why Polygon is a great technology choice for the project?</p><p>- Have the builders created something that raises the bar for UX in web3?</p><p>- Please show a <strong>steady commit trail</strong> and thought process e.g. sketches, discussion, issues on how you arrived at the decision to incorporate this feature.</p><p>- List any **challenges or benefits** you encountered in the developer experience.</p>",
+      "logoUrl": null,
+      "approvalStatus": "accepted",
+      "submittedByOrgId": "0f8c6055-76e5-465c-8d05-9f23c8350e30",
+      "submittedByOrgName": "Polygon",
+      "submittedByOrgLogo": "https://org-resources.s3.amazonaws.com/0f8c6055-76e5-465c-8d05-9f23c8350e30/logo/logo.png",
+      "tags": [],
+      "rewardPool": null,
+      "rewardChain": "Ethereum",
+      "rewardToken": "ETH",
+      "resources": [
+        {
+          "resourceUrl": "https://wiki.polygon.technology/docs/develop/getting-started/",
+          "description": " Resources Check out our docs to deploy #onPolygon"
+        },
+        {
+          "resourceUrl": "https://www.youtube.com/watch?v=ta1Ws7UHzdM",
+          "description": "Bounty video"
+        }
+      ],
+      "rewards": [
+        {
+          "winnerRank": 0,
+          "rewardAmountUsd": "5000"
+        },
+        {
+          "winnerRank": 1,
+          "rewardAmountUsd": "5000"
         }
       ],
       "judgingParameters": [
@@ -4780,7 +5323,7 @@
       "challengeId": "d3a9c175-4d01-4733-9b97-ba876caa78d7",
       "trackId": "5bec93fc-a03d-4dea-a580-f53a92c54257",
       "name": "Instant User Onboarding with Magic Wallet SDK",
-      "description": "<p>Bounties: 7 Bounty Description Magic is a developer SDK that enables companies to create instant web3 wallets with a web2 login and optimize user adoption and conversion on their app. Our solution abstracts away the complexities of wallets and removes the need for seed phrases, browser extensions, or downloads. To date, Magic has onboarded close to 20M users to Web3, working with trailblazers like OpenSea, Nifty’s, Magic Eden, and Mattel. Our mission is to onboard the next billion by helping enterprises and developers break down barriers to adoption. Developers can get started with only a few lines of code, and build quickly across 21 blockchains, including Polygon and Solana, on multiple platforms such as Web, iOS, Android, and Unity.</p>",
+      "description": "<p>Bounties: 7 Bounty Description Magic is a developer SDK that enables companies to create instant web3 wallets with a web2 login and optimize user adoption and conversion on their app. Our solution abstracts away the complexities of wallets and removes the need for seed phrases, browser extensions, or downloads. To date, Magic has onboarded close to 20M users to Web3, working with trailblazers like OpenSea, Nifty’s, Magic Eden, and Mattel. Our mission is to onboard the next billion by helping enterprises and developers break down barriers to adoption. Developers can get started with only a few lines of code, and build quickly across 21 blockchains, including Polygon and Solana, on multiple platforms such as Web, iOS, Android, and Unity.</p><p></p><p>The 5 best submissions for this prize pool will be awarded part of the pool.</p>",
       "acceptanceCriteria": "<p><strong>Criteria:</strong></p><ol><li><p><strong>User Experience</strong></p><p>Build a project that offers end to end seamless user experience with incredible user onboarding with <strong>Magic Wallet</strong>.</p></li><li><p><strong>Originality</strong></p><p>Build a project that’s resourceful and use various smart contracts protocols and libraries to build cool projects such as PoolTogether.</p></li><li><p><strong>Practicality</strong></p><p>Build a project that’s pragmatic and solves real world problems which decentralize technology.</p></li></ol><ul><li><p>Use the full feature including configuration ****options as outlined in the docs link above.</p></li><li><p><strong>Judging</strong> will lean towards projects that are full MVPs, although a clean and creative implementation of the feature serving as an excellent example of feature usage is also acceptable.</p></li><li><p>Please show a <strong>steady commit trail</strong> and thought process e.g. sketches, discussion, issues on how you arrived at the decision to incorporate this feature.</p></li><li><p>List any <strong>challenges or benefits</strong> you encountered in the developer experience.</p></li><li><p><strong>Nice to haves:</strong></p><ul><li><p>Leave comments in your code</p></li><li><p>Leave a comment of your Magic Wallet integration</p></li></ul></li></ul><p><strong>Criteria for Template Guidelines:</strong></p><p><strong>Prerequisites:</strong></p><ul><li><p>Use of Magic Wallet</p></li><li><p><em>You'll need to install:</em>*</p></li><li><p>Node.js, v12 or higher</p></li><li><p>Hardhat</p></li></ul><p><strong>Stack recommended/not-required:</strong></p><p>Web application framework - Next.js</p><p>Solidity development environment - Hardhat</p><p>File Storage - IPFS / NFT Storage</p><p>Ethereum web client library - Ethers.js</p><p>Login, wallet and fiat on-ramp solution - Magic</p>",
       "logoUrl": null,
       "approvalStatus": "accepted",
@@ -4788,9 +5331,9 @@
       "submittedByOrgName": "Magic",
       "submittedByOrgLogo": "https://org-resources.s3.amazonaws.com/fcbd2d58-1d1b-4f4f-bc49-8710d04f254d/logo/logo.png",
       "tags": [],
-      "rewardPool": "35000",
+      "rewardPool": "5000",
       "rewardChain": "Ethereum",
-      "rewardToken": "ETH",
+      "rewardToken": "USDC",
       "resources": [
         {
           "resourceUrl": "https://developers.magic.link",
@@ -5227,7 +5770,7 @@
       "challengeId": "b1b88581-2c84-44fa-beea-dfaa2009c79a",
       "trackId": "5bec93fc-a03d-4dea-a580-f53a92c54257",
       "name": "Revoke Contract Permissions",
-      "description": "<p>Add flexibility and more user control to Tally Ho by implementing a Revoke contract permissions functionality A successful project will look like: Users have the ability to view and revoke ERC-20 and NFT allowance they have granted to contracts through a menu in the wallet.<br><br><strong>Resources</strong><br><br>Official documentation Tally Ho - Github Figma / Revoke permission</p>",
+      "description": "<p>Add flexibility and more user control to Tally Ho by implementing a Revoke contract permissions functionality A successful project will look like: Users have the ability to view and revoke ERC-20 and NFT allowance they have granted to contracts through a menu in the wallet.</p><p></p><p>For more information/explanation, see linked figma docs.</p>",
       "acceptanceCriteria": "<p>Users should be able to view and revoke permissions they have granted to contracts for any imported wallet.</p>",
       "logoUrl": null,
       "approvalStatus": "accepted",
@@ -5237,8 +5780,16 @@
       "tags": [],
       "rewardPool": null,
       "rewardChain": "Ethereum",
-      "rewardToken": "ETH",
+      "rewardToken": "USDC",
       "resources": [
+        {
+          "resourceUrl": "",
+          "description": null
+        },
+        {
+          "resourceUrl": "https://www.figma.com/file/ecoefxm3E3eKfzN8EpDhde/TallyHo!---ETH-Denver-2023?node-id=1%3A11",
+          "description": "https://www.figma.com/file/ecoefxm3E3eKfzN8EpDhde/TallyHo!---ETH-Denver-2023?node-id=1%3A11"
+        },
         {
           "resourceUrl": "https://www.youtube.com/watch?v=zBjdTiAokKQ",
           "description": "Bounty video"
@@ -5246,6 +5797,26 @@
         {
           "resourceUrl": "https://www.youtube.com/watch?v=PWDtovDtBs4",
           "description": "Judging video"
+        },
+        {
+          "resourceUrl": "https://tahowallet.notion.site/Taho-s-ETH-Denver-Bounties-d86d6ca478764c7aa20ac210fadbe6c9",
+          "description": "Bounty Docs"
+        },
+        {
+          "resourceUrl": "https://github.com/tahowallet",
+          "description": "Taho on Github"
+        },
+        {
+          "resourceUrl": "",
+          "description": null
+        },
+        {
+          "resourceUrl": "",
+          "description": null
+        },
+        {
+          "resourceUrl": "",
+          "description": null
         }
       ],
       "rewards": [
@@ -5532,57 +6103,6 @@
       "resultPublished": false
     },
     {
-      "challengeId": "3fc8c043-1c38-4e8a-87e0-f1146d2308da",
-      "trackId": "5bec93fc-a03d-4dea-a580-f53a92c54257",
-      "name": "Add Custom Tokens",
-      "description": "<p>Add flexibility and more user control to Tally Ho by implementing Add custom tokens functionality A successful project will look like: Adding an ERC-20 token displays it under the asset list in the wallet with the correct balance, and allows the user to send and receive it.</p>",
-      "acceptanceCriteria": "<p>Users should be able to add Custom ERC-20 tokens to the wallet</p>",
-      "logoUrl": null,
-      "approvalStatus": "accepted",
-      "submittedByOrgId": "5de17e7c-f727-47ed-a768-cf1e2fbb94c4",
-      "submittedByOrgName": "Taho",
-      "submittedByOrgLogo": "https://org-resources.s3.amazonaws.com/5de17e7c-f727-47ed-a768-cf1e2fbb94c4/logo/logo.png",
-      "tags": [],
-      "rewardPool": "2500",
-      "rewardChain": "Ethereum",
-      "rewardToken": "ETH",
-      "resources": [
-        {
-          "resourceUrl": "https://github.com/tallyhowallet/extension",
-          "description": "GitHub"
-        },
-        {
-          "resourceUrl": "https://www.youtube.com/watch?v=zBjdTiAokKQ",
-          "description": "Bounty video"
-        },
-        {
-          "resourceUrl": "https://www.youtube.com/watch?v=PWDtovDtBs4",
-          "description": "Judging video"
-        }
-      ],
-      "rewards": [],
-      "judgingParameters": [
-        {
-          "parameter": "Technical",
-          "maxScore": "100"
-        },
-        {
-          "parameter": "UX & Design",
-          "maxScore": "100"
-        },
-        {
-          "parameter": "Innovation",
-          "maxScore": "100"
-        },
-        {
-          "parameter": "Creativity",
-          "maxScore": "100"
-        }
-      ],
-      "minJudgeCount": null,
-      "resultPublished": false
-    },
-    {
       "challengeId": "bbbd9ae5-37ec-4266-872c-2c877da9fa76",
       "trackId": "5bec93fc-a03d-4dea-a580-f53a92c54257",
       "name": "Developer Infrastructure/tooling on Mantle",
@@ -5621,6 +6141,69 @@
           "rewardAmountUsd": "2000"
         }
       ],
+      "judgingParameters": [
+        {
+          "parameter": "Technical",
+          "maxScore": "100"
+        },
+        {
+          "parameter": "UX & Design",
+          "maxScore": "100"
+        },
+        {
+          "parameter": "Innovation",
+          "maxScore": "100"
+        },
+        {
+          "parameter": "Creativity",
+          "maxScore": "100"
+        }
+      ],
+      "minJudgeCount": null,
+      "resultPublished": false
+    },
+    {
+      "challengeId": "3fc8c043-1c38-4e8a-87e0-f1146d2308da",
+      "trackId": "5bec93fc-a03d-4dea-a580-f53a92c54257",
+      "name": "Add Custom Tokens",
+      "description": "<p>Add flexibility and more user control to Tally Ho by implementing Add custom tokens functionality A successful project will look like: Adding an ERC-20 token displays it under the asset list in the wallet with the correct balance, and allows the user to send and receive it.</p>",
+      "acceptanceCriteria": "<p>Users should be able to add Custom ERC-20 tokens to the wallet</p>",
+      "logoUrl": null,
+      "approvalStatus": "accepted",
+      "submittedByOrgId": "5de17e7c-f727-47ed-a768-cf1e2fbb94c4",
+      "submittedByOrgName": "Taho",
+      "submittedByOrgLogo": "https://org-resources.s3.amazonaws.com/5de17e7c-f727-47ed-a768-cf1e2fbb94c4/logo/logo.png",
+      "tags": [],
+      "rewardPool": "2500",
+      "rewardChain": "Ethereum",
+      "rewardToken": "USDC",
+      "resources": [
+        {
+          "resourceUrl": "https://tahowallet.notion.site/Taho-s-ETH-Denver-Bounties-d86d6ca478764c7aa20ac210fadbe6c9",
+          "description": "Taho ETHDenver Docs"
+        },
+        {
+          "resourceUrl": "https://github.com/tahowallet",
+          "description": "Taho on Github"
+        },
+        {
+          "resourceUrl": "https://github.com/tallyhowallet/extension",
+          "description": "Taho Wallet Extension (Github)"
+        },
+        {
+          "resourceUrl": "https://www.figma.com/file/ecoefxm3E3eKfzN8EpDhde/TallyHo!---ETH-Denver-2023?node-id=0%3A1&t=9okJf49cDsuSROzs-0",
+          "description": "https://www.figma.com/file/ecoefxm3E3eKfzN8EpDhde/TallyHo!---ETH-Denver-2023?node-id=0%3A1&t=9okJf49cDsuSROzs-0"
+        },
+        {
+          "resourceUrl": "https://www.youtube.com/watch?v=zBjdTiAokKQ",
+          "description": "Bounty video"
+        },
+        {
+          "resourceUrl": "https://www.youtube.com/watch?v=PWDtovDtBs4",
+          "description": "Judging video"
+        }
+      ],
+      "rewards": [],
       "judgingParameters": [
         {
           "parameter": "Technical",
@@ -6223,85 +6806,37 @@
       "resultPublished": false
     },
     {
-      "challengeId": "067cab7b-b30e-447c-ac81-f436c6402244",
+      "challengeId": "3e4a9768-947e-40a9-98bf-bc24716b3120",
       "trackId": "5bec93fc-a03d-4dea-a580-f53a92c54257",
-      "name": "Trueblocks Integration",
-      "description": "<p>Integrate Trueblocks/Unchained Index into Tally Ho via IPFS. A successful implementation will be able to find all the transactions for the past month where the address was used and console logs their links to etherscan. </p>",
-      "acceptanceCriteria": "<p>Official documentation TK Tally Ho extension build repo on Github https://github.com/tallyhowallet/extension Trueblocks documentation https://trueblocks.io/docs/install/install-core/ Trueblocks discord #support https://discord.com/invite/kAFcZH2x7K Tally Ho discord #developers https://chat.tallyho.org/ unchainedindex.eth - main contract to query for the latest manifest file * manifestHashMap function * param1 (address): 'resolved trueblocks.eth address' * param2 (network): 'mainnet' Current manifest file on ipfs (might change) https://ipfs.io/ipfs/QmRGCuUaTH9yJTuGmgUv7N31qunLC4Vvqzvxyq1C1tMGF7 Unchained index spec https://trueblocks.io/papers/2022/file-format-spec-v0.40.0-beta.pdf eth_getTransactionByBlockNumberAndIndex https://docs.alchemy.com/reference/eth-gettransactionbyblocknumberandindex https://trueblocks.io/docs/install/build-unchained-index/</p>",
+      "name": "Developer Feature Bonanza",
+      "description": "<p>Make Tally Ho more developer friendly by incorporating one of the following features, or another feature not on this list: creating an in-wallet testnet faucet a functionality to create local chain forks A successful project looks like: In-wallet button that dispenses testnet ETH to the current address The ability to initiate a mainnet fork from within the wallet. Users should be able to connect to app.uniswap.org and swap on their fork as if it were connected to mainnet.</p><p></p><p>9000$ USDC Prize Pool divided to up to 3 winning teams!</p>",
+      "acceptanceCriteria": "<p>Criteria Add the ability for users to add Goerli ETH to their logged in address without leaving the wallet. Add the ability for users to initiate and connect to mainnet forks from the wallet - and then browse and use dapps while connected to that fork. </p>",
       "logoUrl": null,
       "approvalStatus": "accepted",
       "submittedByOrgId": "5de17e7c-f727-47ed-a768-cf1e2fbb94c4",
       "submittedByOrgName": "Taho",
       "submittedByOrgLogo": "https://org-resources.s3.amazonaws.com/5de17e7c-f727-47ed-a768-cf1e2fbb94c4/logo/logo.png",
       "tags": [],
-      "rewardPool": null,
+      "rewardPool": "9000",
       "rewardChain": "Ethereum",
-      "rewardToken": "ETH",
+      "rewardToken": "USDC",
       "resources": [
         {
-          "resourceUrl": "https://unchainedindex.eth",
-          "description": "Unchained Index"
+          "resourceUrl": "https://tahowallet.notion.site/Taho-s-ETH-Denver-Bounties-d86d6ca478764c7aa20ac210fadbe6c9",
+          "description": "Taho ETHDenver Docs"
         },
         {
-          "resourceUrl": "https://trueblocks.eth",
-          "description": "Trueblocks"
+          "resourceUrl": "https://github.com/tahowallet",
+          "description": "Taho on Github"
         },
         {
-          "resourceUrl": "https://www.youtube.com/watch?v=zBjdTiAokKQ",
-          "description": "Bounty video"
+          "resourceUrl": "https://www.figma.com/file/ecoefxm3E3eKfzN8EpDhde/TallyHo!---ETH-Denver-2023?node-id=1%3A3",
+          "description": "https://www.figma.com/file/ecoefxm3E3eKfzN8EpDhde/TallyHo!---ETH-Denver-2023?node-id=1%3A3"
         },
         {
-          "resourceUrl": "https://www.youtube.com/watch?v=PWDtovDtBs4",
-          "description": "Judging video"
-        }
-      ],
-      "rewards": [
-        {
-          "winnerRank": 0,
-          "rewardAmountUsd": "8000"
+          "resourceUrl": "https://www.figma.com/file/ecoefxm3E3eKfzN8EpDhde/TallyHo!---ETH-Denver-2023?node-id=1%3A8&t=IFuQ6EyJLyWrTj0P-0",
+          "description": "https://www.figma.com/file/ecoefxm3E3eKfzN8EpDhde/TallyHo!---ETH-Denver-2023?node-id=1%3A8&t=IFuQ6EyJLyWrTj0P-0"
         },
-        {
-          "winnerRank": 1,
-          "rewardAmountUsd": "1000"
-        }
-      ],
-      "judgingParameters": [
-        {
-          "parameter": "Technical",
-          "maxScore": "100"
-        },
-        {
-          "parameter": "UX & Design",
-          "maxScore": "100"
-        },
-        {
-          "parameter": "Innovation",
-          "maxScore": "100"
-        },
-        {
-          "parameter": "Creativity",
-          "maxScore": "100"
-        }
-      ],
-      "minJudgeCount": null,
-      "resultPublished": false
-    },
-    {
-      "challengeId": "b9fc46fa-7a61-451b-a2eb-43463bb2cd29",
-      "trackId": "5bec93fc-a03d-4dea-a580-f53a92c54257",
-      "name": "Custom In-Wallet Avatar",
-      "description": "<p>Allow users to customize their wallet avatar from their NFT collection. Successful projects will integrate a delightful way to switch b/w wallet avatars.</p>",
-      "acceptanceCriteria": "<p>Criteria Allow users to select one of their NFTs to replace the default dog-avatar associated with a given address. Functionality should include: Ability to select an owned NFT as wallet avatar Ability to change between avatars Ability to remove avatar and revert to default.</p>",
-      "logoUrl": null,
-      "approvalStatus": "accepted",
-      "submittedByOrgId": "5de17e7c-f727-47ed-a768-cf1e2fbb94c4",
-      "submittedByOrgName": "Taho",
-      "submittedByOrgLogo": "https://org-resources.s3.amazonaws.com/5de17e7c-f727-47ed-a768-cf1e2fbb94c4/logo/logo.png",
-      "tags": [],
-      "rewardPool": "2000",
-      "rewardChain": "Ethereum",
-      "rewardToken": "ETH",
-      "resources": [
         {
           "resourceUrl": "https://www.youtube.com/watch?v=zBjdTiAokKQ",
           "description": "Bounty video"
@@ -6334,44 +6869,63 @@
       "resultPublished": false
     },
     {
-      "challengeId": "3e4a9768-947e-40a9-98bf-bc24716b3120",
+      "challengeId": "b37bb411-3354-45e6-a642-7fa52d3b1e0a",
       "trackId": "5bec93fc-a03d-4dea-a580-f53a92c54257",
-      "name": "Developer Feature Bonanza",
-      "description": "<p>Make Tally Ho more developer friendly by incorporating one of the following features, or another feature not on this list: creating an in-wallet testnet faucet a functionality to create local chain forks A successful project looks like: In-wallet button that dispenses testnet ETH to the current address The ability to initiate a mainnet fork from within the wallet. Users should be able to connect to app.uniswap.org and swap on their fork as if it were connected to mainnet.</p>",
-      "acceptanceCriteria": "<p>Criteria Add the ability for users to add Goerli ETH to their logged in address without leaving the wallet. Add the ability for users to initiate and connect to mainnet forks from the wallet - and then browse and use dapps while connected to that fork. </p>",
+      "name": "Onboarding Feature Improvement",
+      "description": "<p>Help us integrate the most in-demand features from our community. Choose from the list below or another feature not listed: Private key import Add “select addresses” when importing seed phrase A successful project would look like: Users should be able to use a private key to import an address when first onboarding to tally - and should be able to do all standard wallet operations after doing so. Users should be able to select one address associated with a seed phrase when they are importing a wallet.</p><p></p><p>Up to 3 qualifying projects win part of the 9000$ USDC prize pool!</p>",
+      "acceptanceCriteria": "<ul><li><p>Add the ability to import addresses via private key </p></li><li><p>Add the ability to select a specific address when importing a seed phrase.</p></li></ul>",
       "logoUrl": null,
       "approvalStatus": "accepted",
       "submittedByOrgId": "5de17e7c-f727-47ed-a768-cf1e2fbb94c4",
       "submittedByOrgName": "Taho",
       "submittedByOrgLogo": "https://org-resources.s3.amazonaws.com/5de17e7c-f727-47ed-a768-cf1e2fbb94c4/logo/logo.png",
       "tags": [],
-      "rewardPool": null,
+      "rewardPool": "9000",
       "rewardChain": "Ethereum",
-      "rewardToken": "ETH",
+      "rewardToken": "USDC",
       "resources": [
         {
-          "resourceUrl": "https://www.youtube.com/watch?v=zBjdTiAokKQ",
-          "description": "Bounty video"
+          "resourceUrl": "https://github.com/tallyhowallet/extension",
+          "description": "Docs"
+        },
+        {
+          "resourceUrl": "https://tahowallet.notion.site/Taho-s-ETH-Denver-Bounties-d86d6ca478764c7aa20ac210fadbe6c9",
+          "description": "Bounty Docs"
+        },
+        {
+          "resourceUrl": "https://github.com/tahowallet",
+          "description": "Taho on GitHub"
+        },
+        {
+          "resourceUrl": "https://www.figma.com/file/ecoefxm3E3eKfzN8EpDhde/TallyHo!---ETH-Denver-2023?node-id=1%3A9&t=a7kMU3nSN3iROhno-0",
+          "description": "https://www.figma.com/file/ecoefxm3E3eKfzN8EpDhde/TallyHo!---ETH-Denver-2023?node-id=1%3A9&t=a7kMU3nSN3iROhno-0"
+        },
+        {
+          "resourceUrl": "https://www.figma.com/file/ecoefxm3E3eKfzN8EpDhde/TallyHo!---ETH-Denver-2023?node-id=0%3A1&t=rGIzPzhljVlvoE8t-0",
+          "description": "https://www.figma.com/file/ecoefxm3E3eKfzN8EpDhde/TallyHo!---ETH-Denver-2023?node-id=0%3A1&t=rGIzPzhljVlvoE8t-0"
         },
         {
           "resourceUrl": "https://www.youtube.com/watch?v=PWDtovDtBs4",
+          "description": "Bounty video"
+        },
+        {
+          "resourceUrl": "https://www.youtube.com/watch?v=zBjdTiAokKQ",
           "description": "Judging video"
-        }
-      ],
-      "rewards": [
-        {
-          "winnerRank": 0,
-          "rewardAmountUsd": "9000"
         },
         {
-          "winnerRank": 1,
-          "rewardAmountUsd": "6000"
+          "resourceUrl": "",
+          "description": null
         },
         {
-          "winnerRank": 2,
-          "rewardAmountUsd": "3000"
+          "resourceUrl": "",
+          "description": null
+        },
+        {
+          "resourceUrl": "",
+          "description": null
         }
       ],
+      "rewards": [],
       "judgingParameters": [
         {
           "parameter": "Technical",
@@ -6394,24 +6948,32 @@
       "resultPublished": false
     },
     {
-      "challengeId": "b37bb411-3354-45e6-a642-7fa52d3b1e0a",
+      "challengeId": "b9fc46fa-7a61-451b-a2eb-43463bb2cd29",
       "trackId": "5bec93fc-a03d-4dea-a580-f53a92c54257",
-      "name": "Onboarding Feature Improvement",
-      "description": "<p>Help us integrate the most in-demand features from our community. Choose from the list below or another feature not listed: Private key import Add “select addresses” when importing seed phrase A successful project would look like: Users should be able to use a private key to import an address when first onboarding to tally - and should be able to do all standard wallet operations after doing so. Users should be able to select one address associated with a seed phrase when they are importing a wallet.</p>",
-      "acceptanceCriteria": "<p>Criteria Add the ability to import addresses via private key Add the ability to select a specific address when importing a seed phrase.</p>",
+      "name": "Custom In-Wallet Avatar",
+      "description": "<p>Allow users to customize their wallet avatar from their NFT collection. Successful projects will integrate a delightful way to switch between wallet avatars!</p>",
+      "acceptanceCriteria": "<p>Allow users to select one of their NFTs to replace the default dog-avatar associated with a given address. Functionality should include: </p><ul><li><p>Ability to select an owned NFT as wallet avatar </p></li><li><p>Ability to change between avatars </p></li><li><p>Ability to remove avatar and revert to default.</p></li></ul>",
       "logoUrl": null,
       "approvalStatus": "accepted",
       "submittedByOrgId": "5de17e7c-f727-47ed-a768-cf1e2fbb94c4",
       "submittedByOrgName": "Taho",
       "submittedByOrgLogo": "https://org-resources.s3.amazonaws.com/5de17e7c-f727-47ed-a768-cf1e2fbb94c4/logo/logo.png",
       "tags": [],
-      "rewardPool": null,
+      "rewardPool": "2000",
       "rewardChain": "Ethereum",
-      "rewardToken": "ETH",
+      "rewardToken": "USDC",
       "resources": [
         {
-          "resourceUrl": "https://github.com/tallyhowallet/extension",
-          "description": "Docs"
+          "resourceUrl": "https://tahowallet.notion.site/Taho-s-ETH-Denver-Bounties-d86d6ca478764c7aa20ac210fadbe6c9",
+          "description": "Taho ETHDenver Docs"
+        },
+        {
+          "resourceUrl": "https://github.com/tahowallet",
+          "description": "Taho on Github"
+        },
+        {
+          "resourceUrl": "https://www.figma.com/file/ecoefxm3E3eKfzN8EpDhde/TallyHo!---ETH-Denver-2023?node-id=1%3A2&t=n7tGJzI0I8uBEKr4-0",
+          "description": "https://www.figma.com/file/ecoefxm3E3eKfzN8EpDhde/TallyHo!---ETH-Denver-2023?node-id=1%3A2&t=n7tGJzI0I8uBEKr4-0"
         },
         {
           "resourceUrl": "https://www.youtube.com/watch?v=zBjdTiAokKQ",
@@ -6422,20 +6984,7 @@
           "description": "Judging video"
         }
       ],
-      "rewards": [
-        {
-          "winnerRank": 0,
-          "rewardAmountUsd": "9000"
-        },
-        {
-          "winnerRank": 1,
-          "rewardAmountUsd": "6000"
-        },
-        {
-          "winnerRank": 2,
-          "rewardAmountUsd": "3000"
-        }
-      ],
+      "rewards": [],
       "judgingParameters": [
         {
           "parameter": "Technical",
@@ -6880,7 +7429,7 @@
           "description": "Bounty Video"
         },
         {
-          "resourceUrl": "https://cypherwallet.webflow.io/eth-denver-bounty",
+          "resourceUrl": "https://www.cypherwallet.io/eth-denver-bounty",
           "description": "Cypher Wallet ETHDenver Bounty Website"
         }
       ],
@@ -7416,33 +7965,33 @@
       "challengeId": "d3fcc662-1324-47ce-95ba-ba5176bb3bf9",
       "trackId": "5bec93fc-a03d-4dea-a580-f53a92c54257",
       "name": "Best use of Sign-In with Ethereum using SSX and ENS",
-      "description": "<p><strong>Number of Bounties: 3 </strong></p><p></p><p>We're awarding 3 teams that use SSX as part of their application to let users Sign-In with Ethereum and leverage ENS as part of the workflow. Additionally, developers can leverage additional features such as DAO Login and more to help enrich the experience. </p>",
-      "acceptanceCriteria": "<p>Implement the full Sign-In with Etherereum workflow along with ENS resolution in your dapp via SSX and SSX's feature flags - Judging will lean more towards what's enabled via the integration rather than just a basic integration of the software - Please make sure to include relevant GitHub links with commits showing the integration process.</p>",
+      "description": "<p><strong>Number of Bounties: 4</strong></p><p></p><p>We're awarding 4 teams that use SSX as part of their application to let users Sign-In with Ethereum and leverage ENS as part of the workflow. Additionally, developers can leverage additional features such as DAO Login and more to help enrich the experience.</p>",
+      "acceptanceCriteria": "<p>- Implement the full Sign-In with Etherereum workflow along with ENS resolution in your dapp via SSX and SSX's feature flags<br>- Judging will lean more towards what's enabled via the integration rather than just a basic integration of the software<br>- Please make sure to include relevant GitHub links with commits showing the integration process</p>",
       "logoUrl": null,
       "approvalStatus": "accepted",
       "submittedByOrgId": "8d522fe2-15a5-48d2-b293-5e8aac76e157",
       "submittedByOrgName": "SpruceID",
       "submittedByOrgLogo": "https://org-resources.s3.amazonaws.com/8d522fe2-15a5-48d2-b293-5e8aac76e157/logo/logo.png",
       "tags": [],
-      "rewardPool": "3000",
+      "rewardPool": "4000",
       "rewardChain": "Ethereum",
-      "rewardToken": "ETH",
+      "rewardToken": "USDC",
       "resources": [
         {
           "resourceUrl": "https://docs.ssx.id/",
-          "description": "Docs"
+          "description": "SpruceID Docs"
         },
         {
           "resourceUrl": "https://docs.ssx.id/configuring-ssx",
-          "description": "Configurations"
+          "description": "Configuring SSX"
         },
         {
           "resourceUrl": "https://github.com/spruceid/ssx",
-          "description": "GitHub"
+          "description": "SpruceID on GitHub"
         },
         {
           "resourceUrl": "https://blog.developerdao.com/getting-started-with-ssx",
-          "description": "Guide"
+          "description": "Getting Started with SSX"
         },
         {
           "resourceUrl": "https://www.youtube.com/watch?v=CxS1skphBno",
@@ -7532,78 +8081,6 @@
         {
           "winnerRank": 0,
           "rewardAmountUsd": "2500"
-        }
-      ],
-      "judgingParameters": [
-        {
-          "parameter": "Technical",
-          "maxScore": "100"
-        },
-        {
-          "parameter": "UX & Design",
-          "maxScore": "100"
-        },
-        {
-          "parameter": "Innovation",
-          "maxScore": "100"
-        },
-        {
-          "parameter": "Creativity",
-          "maxScore": "100"
-        }
-      ],
-      "minJudgeCount": null,
-      "resultPublished": false
-    },
-    {
-      "challengeId": "a388c1ee-bd95-4b92-817a-cbbcaf35bd86",
-      "trackId": "5bec93fc-a03d-4dea-a580-f53a92c54257",
-      "name": "Best Upgrade to SSX",
-      "description": "<p>Bounty Description We're looking for teams that are interested in adding additional features to SSX that can be enabled with feature flags. Examples of these types of features already implemented include resolving ENS or Lens information (both could even be extended as part of this), but entirely new features can be added.   </p>",
-      "acceptanceCriteria": "<p>Implement a feature that can be used alongside existing workflows to enhance Sign-In with Ethereum beyond logging in. - Judging will lean more towards creativity, and we welcome the usage of existing protocols as features (for example, Sign-In with Ethereum and pulling in a user's decentralized chat history to an application!) - Please make sure to include relevant GitHub links with commits showing the integration process, and feel free to send feedback on what worked and didn't work for you. - Bonus points if the feature is not only submitted / PR'd to SSX but used in an application featuring other bounties.\"</p>",
-      "logoUrl": null,
-      "approvalStatus": "accepted",
-      "submittedByOrgId": "8d522fe2-15a5-48d2-b293-5e8aac76e157",
-      "submittedByOrgName": "SpruceID",
-      "submittedByOrgLogo": "https://org-resources.s3.amazonaws.com/8d522fe2-15a5-48d2-b293-5e8aac76e157/logo/logo.png",
-      "tags": [],
-      "rewardPool": null,
-      "rewardChain": "Ethereum",
-      "rewardToken": "ETH",
-      "resources": [
-        {
-          "resourceUrl": "https://docs.ssx.id/",
-          "description": "Docs"
-        },
-        {
-          "resourceUrl": "https://docs.ssx.id/configuring-ssx",
-          "description": "Configuration"
-        },
-        {
-          "resourceUrl": "https://github.com/spruceid/ssx",
-          "description": "GitHub"
-        },
-        {
-          "resourceUrl": "https://blog.developerdao.com/getting-started-with-ssx",
-          "description": "Guide"
-        },
-        {
-          "resourceUrl": "https://www.youtube.com/watch?v=CxS1skphBno",
-          "description": "Bounty video"
-        },
-        {
-          "resourceUrl": "https://www.youtube.com/watch?v=8l7I4o7gUoU",
-          "description": "Judging video"
-        }
-      ],
-      "rewards": [
-        {
-          "winnerRank": 0,
-          "rewardAmountUsd": "1000"
-        },
-        {
-          "winnerRank": 1,
-          "rewardAmountUsd": "0"
         }
       ],
       "judgingParameters": [
@@ -7775,6 +8252,78 @@
       "resultPublished": false
     },
     {
+      "challengeId": "a388c1ee-bd95-4b92-817a-cbbcaf35bd86",
+      "trackId": "5bec93fc-a03d-4dea-a580-f53a92c54257",
+      "name": "Best Upgrade to SSX",
+      "description": "<p>We're looking for teams that are interested in adding additional features to SSX that can be enabled with feature flags. Examples of these types of features already implemented include resolving ENS or Lens information (both could even be extended as part of this), but entirely new features can be added.</p>",
+      "acceptanceCriteria": "<p>- Implement a feature that can be used alongside existing workflows to enhance Sign-In with Ethereum beyond logging in.<br>- Judging will lean more towards creativity, and we welcome the usage of existing protocols as features (for example, Sign-In with Ethereum and pulling in a user's decentralized chat history to an application!) <br>- Please make sure to include relevant GitHub links with commits showing the integration process, and feel free to send feedback on what worked and didn't work for you.<br>- Bonus points if the feature is not only submitted / PR'd to SSX but used in an application featuring other bounties.</p>",
+      "logoUrl": null,
+      "approvalStatus": "accepted",
+      "submittedByOrgId": "8d522fe2-15a5-48d2-b293-5e8aac76e157",
+      "submittedByOrgName": "SpruceID",
+      "submittedByOrgLogo": "https://org-resources.s3.amazonaws.com/8d522fe2-15a5-48d2-b293-5e8aac76e157/logo/logo.png",
+      "tags": [],
+      "rewardPool": null,
+      "rewardChain": "Ethereum",
+      "rewardToken": "USDC",
+      "resources": [
+        {
+          "resourceUrl": "https://docs.ssx.id/",
+          "description": "SpruceID Docs"
+        },
+        {
+          "resourceUrl": "https://docs.ssx.id/configuring-ssx",
+          "description": "Configuring SSX"
+        },
+        {
+          "resourceUrl": "https://github.com/spruceid/ssx",
+          "description": "SpruceID on Github"
+        },
+        {
+          "resourceUrl": "https://blog.developerdao.com/getting-started-with-ssx",
+          "description": "Getting Started with SSX"
+        },
+        {
+          "resourceUrl": "https://www.youtube.com/watch?v=CxS1skphBno",
+          "description": "Bounty video"
+        },
+        {
+          "resourceUrl": "https://www.youtube.com/watch?v=8l7I4o7gUoU",
+          "description": "Judging video"
+        }
+      ],
+      "rewards": [
+        {
+          "winnerRank": 0,
+          "rewardAmountUsd": "2000"
+        },
+        {
+          "winnerRank": 1,
+          "rewardAmountUsd": "0"
+        }
+      ],
+      "judgingParameters": [
+        {
+          "parameter": "Technical",
+          "maxScore": "100"
+        },
+        {
+          "parameter": "UX & Design",
+          "maxScore": "100"
+        },
+        {
+          "parameter": "Innovation",
+          "maxScore": "100"
+        },
+        {
+          "parameter": "Creativity",
+          "maxScore": "100"
+        }
+      ],
+      "minJudgeCount": null,
+      "resultPublished": false
+    },
+    {
       "challengeId": "31208b98-c795-42ef-8057-96045b9cb5f1",
       "trackId": "5bec93fc-a03d-4dea-a580-f53a92c54257",
       "name": "Risk Management",
@@ -7911,166 +8460,6 @@
       "resultPublished": false
     },
     {
-      "challengeId": "53d5ddd3-310d-49ce-98f4-605cd4d1ca1a",
-      "trackId": "5bec93fc-a03d-4dea-a580-f53a92c54257",
-      "name": "Building DApps using Cartesi Rollups",
-      "description": "<p>You can develop a proof of decentralized concept application using Cartesi Rollups. For inspiration, you might want to use one of these components:</p><p><br></p><ul><li><p>Decentralized SQLite.</p></li><li><p>Decentralized Geoprocessing library.</p></li><li><p>Cartesi Rollups asset deposit and withdraw.</p></li><li><p>Decentralized OpenCV (Image Processing library).</p></li></ul><p><br></p><p>Be creative. We encourage you to build novel applications using this stack without any constraints. The easiest way to get started is to start building off of the rollups examples. We want you to explore what can be built using Cartesi and these basic components.&nbsp;</p>",
-      "acceptanceCriteria": "<p>While judging will lean towards projects that are full MVPs, a clean and creative implementation design, whitepaper, etc... is also acceptable. We will score projects based on the following criteria, and each will be scored from 1 to 5 for a maximum of 25 points:</p><ul><li><p>Product-market fit and economic viability.</p></li><li><p>Originality and innovation.</p></li><li><p>Implementation quality.</p></li><li><p>Technical complexity.</p></li><li><p>Level of completion.</p></li></ul>",
-      "logoUrl": null,
-      "approvalStatus": "accepted",
-      "submittedByOrgId": "5a7c46e4-1e02-47c0-a72e-b48cfcf88afd",
-      "submittedByOrgName": "Cartesi",
-      "submittedByOrgLogo": "https://org-resources.s3.amazonaws.com/5a7c46e4-1e02-47c0-a72e-b48cfcf88afd/logo/logo.png",
-      "tags": [],
-      "rewardPool": null,
-      "rewardChain": "Ethereum",
-      "rewardToken": "USDC",
-      "resources": [
-        {
-          "resourceUrl": "https://docs.cartesi.io",
-          "description": "Docs → https://docs.cartesi.io"
-        },
-        {
-          "resourceUrl": "https://medium.com/@cartesi",
-          "description": "Blog → https://medium.com/@cartesi"
-        },
-        {
-          "resourceUrl": "https://github.com/cartesi/rollups-examples",
-          "description": "GitHub → https://github.com/cartesi/rollups-examples"
-        },
-        {
-          "resourceUrl": "https://bit.ly/cartesi-magazine",
-          "description": "Magazine → https://bit.ly/cartesi-magazine"
-        },
-        {
-          "resourceUrl": "https://bit.ly/cartesi-playlist",
-          "description": "Videos → https://bit.ly/cartesi-playlist"
-        },
-        {
-          "resourceUrl": "https://www.youtube.com/watch?v=l6olEHhtUEc",
-          "description": "Bounty video"
-        }
-      ],
-      "rewards": [
-        {
-          "winnerRank": 0,
-          "rewardAmountUsd": "3000"
-        },
-        {
-          "winnerRank": 1,
-          "rewardAmountUsd": "2000"
-        },
-        {
-          "winnerRank": 2,
-          "rewardAmountUsd": "1000"
-        },
-        {
-          "winnerRank": 3,
-          "rewardAmountUsd": "1000"
-        }
-      ],
-      "judgingParameters": [
-        {
-          "parameter": "Technical",
-          "maxScore": "100"
-        },
-        {
-          "parameter": "UX & Design",
-          "maxScore": "100"
-        },
-        {
-          "parameter": "Innovation",
-          "maxScore": "100"
-        },
-        {
-          "parameter": "Creativity",
-          "maxScore": "100"
-        }
-      ],
-      "minJudgeCount": null,
-      "resultPublished": false
-    },
-    {
-      "challengeId": "caceff4a-e63f-4829-97e4-1cae7af9656f",
-      "trackId": "5bec93fc-a03d-4dea-a580-f53a92c54257",
-      "name": "Create a Higher-level Unified client library for Cartesi",
-      "description": "<p>This bounty is to create a Higher-level Unified client library for Cartesi. Currently, Cartesi developers have to deal with three different interfaces:</p><p></p><ul><li><p><strong>JSON-RPC →</strong> for generating inputs to the Cartesi Rollups, using a web3 library to interface with a blockchain node, like ethers.js or web3.js.</p></li><li><p><strong>HTTP Rest →</strong> for interacting with the \"read-only\", inspect the API of the Cartesi node using an HTTP client library like Axios.</p></li><li><p><strong>GraphQL →</strong> for querying inputs and outputs of a Rollup DApp (reports, notices, and vouchers) using a client library like Relay.</p></li></ul><p></p><p>It would be great to have a wrapper library that abstracts the underlying connection using different protocols so that new developers can interact with Rollups DApps easier. The Rollups examples cli frontend could be a good resource for this feature bounty as it uses all three interfaces.</p>",
-      "acceptanceCriteria": "<p>The proposed solutions will mainly be evaluated based on these criteria:</p><p></p><ul><li><p>Completeness of the solution (cover use cases)</p></li><li><p>Elegance of the proposed API (simple, easy to use)</p></li><li><p>Quality of the solution (good design and implementation)</p></li></ul>",
-      "logoUrl": null,
-      "approvalStatus": "accepted",
-      "submittedByOrgId": "5a7c46e4-1e02-47c0-a72e-b48cfcf88afd",
-      "submittedByOrgName": "Cartesi",
-      "submittedByOrgLogo": "https://org-resources.s3.amazonaws.com/5a7c46e4-1e02-47c0-a72e-b48cfcf88afd/logo/logo.png",
-      "tags": [],
-      "rewardPool": null,
-      "rewardChain": "Ethereum",
-      "rewardToken": "USDC",
-      "resources": [
-        {
-          "resourceUrl": "https://docs.cartesi.io",
-          "description": "Docs → https://docs.cartesi.io"
-        },
-        {
-          "resourceUrl": "https://medium.com/@cartesi",
-          "description": "Blog → https://medium.com/@cartesi"
-        },
-        {
-          "resourceUrl": "https://github.com/cartesi/rollups-examples",
-          "description": "GitHub → https://github.com/cartesi/rollups-examples"
-        },
-        {
-          "resourceUrl": "https://bit.ly/cartesi-magazine",
-          "description": "Magazine → https://bit.ly/cartesi-magazine"
-        },
-        {
-          "resourceUrl": "https://bit.ly/cartesi-playlist",
-          "description": "Videos → https://bit.ly/cartesi-playlist"
-        },
-        {
-          "resourceUrl": "https://www.youtube.com/watch?v=l6olEHhtUEc",
-          "description": "Bounty video"
-        }
-      ],
-      "rewards": [
-        {
-          "winnerRank": 0,
-          "rewardAmountUsd": "3000"
-        },
-        {
-          "winnerRank": 1,
-          "rewardAmountUsd": "2000"
-        },
-        {
-          "winnerRank": 2,
-          "rewardAmountUsd": "1000"
-        },
-        {
-          "winnerRank": 3,
-          "rewardAmountUsd": "1000"
-        }
-      ],
-      "judgingParameters": [
-        {
-          "parameter": "Technical",
-          "maxScore": "100"
-        },
-        {
-          "parameter": "UX & Design",
-          "maxScore": "100"
-        },
-        {
-          "parameter": "Innovation",
-          "maxScore": "100"
-        },
-        {
-          "parameter": "Creativity",
-          "maxScore": "100"
-        }
-      ],
-      "minJudgeCount": null,
-      "resultPublished": false
-    },
-    {
       "challengeId": "f9a17d6b-307f-4e76-a660-ea1214d077df",
       "trackId": "5bec93fc-a03d-4dea-a580-f53a92c54257",
       "name": "Anything Snaps ?",
@@ -8126,6 +8515,86 @@
         },
         {
           "winnerRank": 2,
+          "rewardAmountUsd": "1000"
+        }
+      ],
+      "judgingParameters": [
+        {
+          "parameter": "Technical",
+          "maxScore": "100"
+        },
+        {
+          "parameter": "UX & Design",
+          "maxScore": "100"
+        },
+        {
+          "parameter": "Innovation",
+          "maxScore": "100"
+        },
+        {
+          "parameter": "Creativity",
+          "maxScore": "100"
+        }
+      ],
+      "minJudgeCount": null,
+      "resultPublished": false
+    },
+    {
+      "challengeId": "53d5ddd3-310d-49ce-98f4-605cd4d1ca1a",
+      "trackId": "5bec93fc-a03d-4dea-a580-f53a92c54257",
+      "name": "Building DApps using Cartesi Rollups",
+      "description": "<p>You can develop a proof of decentralized concept application using Cartesi Rollups. For inspiration, you might want to use one of these components:</p><p><br></p><ul><li><p>Decentralized SQLite.</p></li><li><p>Decentralized Geoprocessing library.</p></li><li><p>Cartesi Rollups asset deposit and withdraw.</p></li><li><p>Decentralized OpenCV (Image Processing library).</p></li></ul><p><br></p><p>Be creative. We encourage you to build novel applications using this stack without any constraints. The easiest way to get started is to start building off of the rollups examples. We want you to explore what can be built using Cartesi and these basic components.&nbsp;</p>",
+      "acceptanceCriteria": "<p>While judging will lean towards projects that are full MVPs, a clean and creative implementation design, whitepaper, etc... is also acceptable. We will score projects based on the following criteria, and each will be scored from 1 to 5 for a maximum of 25 points:</p><ul><li><p>Product-market fit and economic viability.</p></li><li><p>Originality and innovation.</p></li><li><p>Implementation quality.</p></li><li><p>Technical complexity.</p></li><li><p>Level of completion.</p></li></ul>",
+      "logoUrl": null,
+      "approvalStatus": "accepted",
+      "submittedByOrgId": "5a7c46e4-1e02-47c0-a72e-b48cfcf88afd",
+      "submittedByOrgName": "Cartesi",
+      "submittedByOrgLogo": "https://org-resources.s3.amazonaws.com/5a7c46e4-1e02-47c0-a72e-b48cfcf88afd/logo/logo.png",
+      "tags": [],
+      "rewardPool": null,
+      "rewardChain": "Ethereum",
+      "rewardToken": "USDC",
+      "resources": [
+        {
+          "resourceUrl": "https://docs.cartesi.io",
+          "description": "Docs → https://docs.cartesi.io"
+        },
+        {
+          "resourceUrl": "https://medium.com/@cartesi",
+          "description": "Blog → https://medium.com/@cartesi"
+        },
+        {
+          "resourceUrl": "https://github.com/cartesi/rollups-examples",
+          "description": "GitHub → https://github.com/cartesi/rollups-examples"
+        },
+        {
+          "resourceUrl": "https://bit.ly/cartesi-magazine",
+          "description": "Magazine → https://bit.ly/cartesi-magazine"
+        },
+        {
+          "resourceUrl": "https://bit.ly/cartesi-playlist",
+          "description": "Videos → https://bit.ly/cartesi-playlist"
+        },
+        {
+          "resourceUrl": "https://www.youtube.com/watch?v=l6olEHhtUEc",
+          "description": "Bounty video"
+        }
+      ],
+      "rewards": [
+        {
+          "winnerRank": 0,
+          "rewardAmountUsd": "3000"
+        },
+        {
+          "winnerRank": 1,
+          "rewardAmountUsd": "2000"
+        },
+        {
+          "winnerRank": 2,
+          "rewardAmountUsd": "1000"
+        },
+        {
+          "winnerRank": 3,
           "rewardAmountUsd": "1000"
         }
       ],
@@ -8464,65 +8933,6 @@
       "resultPublished": false
     },
     {
-      "challengeId": "96244173-535c-4f7b-a90f-a82e67c5b934",
-      "trackId": "5bec93fc-a03d-4dea-a580-f53a92c54257",
-      "name": "Scroll ♥ Lens | Cross-chain Decentralized Social Media",
-      "description": "<p>What's better than open social graphs? Cross-chain composable social graphs! For this bounty, we're looking for advancements in the L2 and cross-chain experience of Lens and decentralized social. This could be through prototypes, open-source infrastructure, protocol designs, and more. We want to see how you imagine working with Lens in a multichain world, especially with the low gas costs and fast finality of Scroll's zk-rollup. </p><p></p><p>Two winners chosen for 1500$ in USDC each</p>",
-      "acceptanceCriteria": "<p>Propose, prototype or deploy a project that explore decentralized social on Scroll</p><p>Judging will prioritize reusable, open-source projects that build on the existing Lens ecosystem.</p><p>Nice to haves: A. understanding the value zk-rollups bring for fast finality and messaging, B. a working prototype! </p><p>List any challenges or benefits you encountered in the design or developer experience.</p>",
-      "logoUrl": null,
-      "approvalStatus": "accepted",
-      "submittedByOrgId": "a3cbce5e-a955-4693-b437-66c5163ad2b3",
-      "submittedByOrgName": "Scroll",
-      "submittedByOrgLogo": "https://org-resources.s3.amazonaws.com/a3cbce5e-a955-4693-b437-66c5163ad2b3/logo/logo.png",
-      "tags": [],
-      "rewardPool": "3000",
-      "rewardChain": "Ethereum",
-      "rewardToken": "USDC",
-      "resources": [
-        {
-          "resourceUrl": "https://docs.scroll.io",
-          "description": "https://docs.scroll.io"
-        },
-        {
-          "resourceUrl": "https://scrollzkp.notion.site/ETHDenver-Hacker-Resources-71866cd530e44470a85063744e92b3ee",
-          "description": "https://scrollzkp.notion.site/ETHDenver-Hacker-Resources-71866cd530e44470a85063744e92b3ee"
-        },
-        {
-          "resourceUrl": "https://scroll.io/prealpha",
-          "description": "https://scroll.io/prealpha"
-        },
-        {
-          "resourceUrl": "https://guide.scroll.io/user-guide/contract-deployment-tutorial",
-          "description": "https://guide.scroll.io/user-guide/contract-deployment-tutorial"
-        },
-        {
-          "resourceUrl": "https://docs.lens.xyz/docs ",
-          "description": "https://docs.lens.xyz/docs "
-        }
-      ],
-      "rewards": [],
-      "judgingParameters": [
-        {
-          "parameter": "Technical",
-          "maxScore": "100"
-        },
-        {
-          "parameter": "UX & Design",
-          "maxScore": "100"
-        },
-        {
-          "parameter": "Innovation",
-          "maxScore": "100"
-        },
-        {
-          "parameter": "Creativity",
-          "maxScore": "100"
-        }
-      ],
-      "minJudgeCount": null,
-      "resultPublished": false
-    },
-    {
       "challengeId": "d4f6be70-1d5d-4fb2-af84-c80830897aec",
       "trackId": "5bec93fc-a03d-4dea-a580-f53a92c54257",
       "name": "Build on RISC Zero or Integrate RISC Zero into your project",
@@ -8557,6 +8967,65 @@
         {
           "resourceUrl": "https://risczero.notion.site/ETHDenver-Bounty-Resources-a143c17f727149c0ac7d2a12e9ee1a4c",
           "description": "Bonsai Resources: https://risczero.notion.site/ETHDenver-Bounty-Resources-a143c17f727149c0ac7d2a12e9ee1a4c"
+        }
+      ],
+      "rewards": [],
+      "judgingParameters": [
+        {
+          "parameter": "Technical",
+          "maxScore": "100"
+        },
+        {
+          "parameter": "UX & Design",
+          "maxScore": "100"
+        },
+        {
+          "parameter": "Innovation",
+          "maxScore": "100"
+        },
+        {
+          "parameter": "Creativity",
+          "maxScore": "100"
+        }
+      ],
+      "minJudgeCount": null,
+      "resultPublished": false
+    },
+    {
+      "challengeId": "96244173-535c-4f7b-a90f-a82e67c5b934",
+      "trackId": "5bec93fc-a03d-4dea-a580-f53a92c54257",
+      "name": "Scroll ♥ Lens | Cross-chain Decentralized Social Media",
+      "description": "<p>What's better than open social graphs? Cross-chain composable social graphs! For this bounty, we're looking for advancements in the L2 and cross-chain experience of Lens and decentralized social. This could be through prototypes, open-source infrastructure, protocol designs, and more. We want to see how you imagine working with Lens in a multichain world, especially with the low gas costs and fast finality of Scroll's zk-rollup. </p><p></p><p>Two winners chosen for 1500$ in USDC each</p>",
+      "acceptanceCriteria": "<p>Propose, prototype or deploy a project that explore decentralized social on Scroll</p><p>Judging will prioritize reusable, open-source projects that build on the existing Lens ecosystem.</p><p>Nice to haves: A. understanding the value zk-rollups bring for fast finality and messaging, B. a working prototype! </p><p>List any challenges or benefits you encountered in the design or developer experience.</p>",
+      "logoUrl": null,
+      "approvalStatus": "accepted",
+      "submittedByOrgId": "a3cbce5e-a955-4693-b437-66c5163ad2b3",
+      "submittedByOrgName": "Scroll",
+      "submittedByOrgLogo": "https://org-resources.s3.amazonaws.com/a3cbce5e-a955-4693-b437-66c5163ad2b3/logo/logo.png",
+      "tags": [],
+      "rewardPool": "3000",
+      "rewardChain": "Ethereum",
+      "rewardToken": "USDC",
+      "resources": [
+        {
+          "resourceUrl": "https://docs.scroll.io",
+          "description": "https://docs.scroll.io"
+        },
+        {
+          "resourceUrl": "https://scrollzkp.notion.site/ETHDenver-Hacker-Resources-71866cd530e44470a85063744e92b3ee",
+          "description": "https://scrollzkp.notion.site/ETHDenver-Hacker-Resources-71866cd530e44470a85063744e92b3ee"
+        },
+        {
+          "resourceUrl": "https://scroll.io/prealpha",
+          "description": "https://scroll.io/prealpha"
+        },
+        {
+          "resourceUrl": "https://guide.scroll.io/user-guide/contract-deployment-tutorial",
+          "description": "https://guide.scroll.io/user-guide/contract-deployment-tutorial"
+        },
+        {
+          "resourceUrl": "https://docs.lens.xyz/docs ",
+          "description": "https://docs.lens.xyz/docs "
         }
       ],
       "rewards": [],
@@ -8652,69 +9121,6 @@
           "rewardAmountUsd": "5000"
         }
       ],
-      "judgingParameters": [
-        {
-          "parameter": "Technical",
-          "maxScore": "100"
-        },
-        {
-          "parameter": "UX & Design",
-          "maxScore": "100"
-        },
-        {
-          "parameter": "Innovation",
-          "maxScore": "100"
-        },
-        {
-          "parameter": "Creativity",
-          "maxScore": "100"
-        }
-      ],
-      "minJudgeCount": null,
-      "resultPublished": false
-    },
-    {
-      "challengeId": "e945e56a-a1ee-4c5b-a14a-10dbf65efd30",
-      "trackId": "5bec93fc-a03d-4dea-a580-f53a92c54257",
-      "name": "Use the Truffle React Box to deploy a dapp on Infura",
-      "description": "<p>Truffle boxes provide boilerplate code to get your projects started as quickly as possible. This bounty is incredibly open ended! We want to see what full stack dapps you can build using Truffle and Infura! </p>",
-      "acceptanceCriteria": "<p>In order to be eligible for this bounty, we expect to see: </p><p>- You start by unboxing the Truffle React box using the CLI 'truffle unbox react ' or with the VS Code extension </p><p>- An Infura endpoint configured in your truffle-config.js </p><p>- Judging will lean towards full MVPs deployed to a testnet </p><p>- A list of challenges and benefits encountered with Truffle, Ganache, or the VS Code extension</p>",
-      "logoUrl": null,
-      "approvalStatus": "accepted",
-      "submittedByOrgId": "be93dd04-b55f-40fa-8065-4e6d03c59d5c",
-      "submittedByOrgName": "Consensys",
-      "submittedByOrgLogo": "https://org-resources.s3.amazonaws.com/be93dd04-b55f-40fa-8065-4e6d03c59d5c/logo/logo.png",
-      "tags": [],
-      "rewardPool": "1000",
-      "rewardChain": "Ethereum",
-      "rewardToken": "USDC",
-      "resources": [
-        {
-          "resourceUrl": "https://trufflesuite.com/boxes/react/",
-          "description": "Truffle react box"
-        },
-        {
-          "resourceUrl": "https://trufflesuite.com/guides/nft-rental-marketplace/",
-          "description": "Example usage of the box"
-        },
-        {
-          "resourceUrl": "https://trufflesuite.com/guides/nft-rental-marketplace-2/",
-          "description": "NFT Rental Marketplace"
-        },
-        {
-          "resourceUrl": "https://trufflesuite.com/docs/truffle/",
-          "description": "Truffle Docs"
-        },
-        {
-          "resourceUrl": "https://github.com/trufflesuite/ganache#getting-started",
-          "description": "Getting Started with Ganache"
-        },
-        {
-          "resourceUrl": "https://trufflesuite.com/docs/vscode-ext/",
-          "description": "Truffle VSCode Ext"
-        }
-      ],
-      "rewards": [],
       "judgingParameters": [
         {
           "parameter": "Technical",
@@ -8833,6 +9239,165 @@
         },
         {
           "parameter": "UX & Design",
+          "maxScore": "100"
+        }
+      ],
+      "minJudgeCount": null,
+      "resultPublished": false
+    },
+    {
+      "challengeId": "e945e56a-a1ee-4c5b-a14a-10dbf65efd30",
+      "trackId": "5bec93fc-a03d-4dea-a580-f53a92c54257",
+      "name": "Use the Truffle React Box to deploy a dapp on Infura",
+      "description": "<p>Truffle boxes provide boilerplate code to get your projects started as quickly as possible. This bounty is incredibly open ended! We want to see what full stack dapps you can build using Truffle and Infura! </p>",
+      "acceptanceCriteria": "<p>In order to be eligible for this bounty, we expect to see: </p><p>- You start by unboxing the Truffle React box using the CLI 'truffle unbox react ' or with the VS Code extension </p><p>- An Infura endpoint configured in your truffle-config.js </p><p>- Judging will lean towards full MVPs deployed to a testnet </p><p>- A list of challenges and benefits encountered with Truffle, Ganache, or the VS Code extension</p>",
+      "logoUrl": null,
+      "approvalStatus": "accepted",
+      "submittedByOrgId": "a7449e8f-3311-4fb2-b0b3-567170b65104",
+      "submittedByOrgName": "Infura",
+      "submittedByOrgLogo": "https://org-resources.s3.amazonaws.com/a7449e8f-3311-4fb2-b0b3-567170b65104/logo/logo.jpg",
+      "tags": [],
+      "rewardPool": "1000",
+      "rewardChain": "Ethereum",
+      "rewardToken": "USDC",
+      "resources": [
+        {
+          "resourceUrl": "https://trufflesuite.com/boxes/react/",
+          "description": "Truffle react box"
+        },
+        {
+          "resourceUrl": "https://trufflesuite.com/guides/nft-rental-marketplace/",
+          "description": "Example usage of the box"
+        },
+        {
+          "resourceUrl": "https://trufflesuite.com/guides/nft-rental-marketplace-2/",
+          "description": "NFT Rental Marketplace"
+        },
+        {
+          "resourceUrl": "https://trufflesuite.com/docs/truffle/",
+          "description": "Truffle Docs"
+        },
+        {
+          "resourceUrl": "https://github.com/trufflesuite/ganache#getting-started",
+          "description": "Getting Started with Ganache"
+        },
+        {
+          "resourceUrl": "https://trufflesuite.com/docs/vscode-ext/",
+          "description": "Truffle VSCode Ext"
+        }
+      ],
+      "rewards": [],
+      "judgingParameters": [
+        {
+          "parameter": "Technical",
+          "maxScore": "100"
+        },
+        {
+          "parameter": "UX & Design",
+          "maxScore": "100"
+        },
+        {
+          "parameter": "Innovation",
+          "maxScore": "100"
+        },
+        {
+          "parameter": "Creativity",
+          "maxScore": "100"
+        }
+      ],
+      "minJudgeCount": null,
+      "resultPublished": false
+    },
+    {
+      "challengeId": "1f52d52f-f768-455e-9e94-6ae346f9e2bf",
+      "trackId": "5bec93fc-a03d-4dea-a580-f53a92c54257",
+      "name": "BUIDL on Fireblocks ",
+      "description": "<p>Build your project by getting <strong><em>early access</em></strong> to the Fireblocks Developer Sandbox. Fireblocks is offering free, secure MPC-based wallets that work with popular Testnets. Use the Fireblocks API and SDKs to create wallets at scale, deploy smart contracts, interact cross-chain, and build the most possible use cases you can think of. The Fireblocks digital asset infrastructure is used by small startups and large enterprises in web3, crypto trading, payments and more. It’s the infrastructure that grows and scales with you, making blockchain oriented development easy and secure.</p><p><br></p><p>Almost any project can add Fireblocks as part of their stack in EthDenver!</p><p><br></p><p>What can you build using Fireblocks?</p><ul><li><p>Anything that requires wallets to operate</p></li><li><p>Custody wallets for your users, or generate one-time deposit addresses</p></li><li><p>Fireblocks wallets support multiple protocols and chains - you can run a cross chain operation in one platform</p></li><li><p>Deploy smart contracts</p></li><li><p>Interact with contracts from your backend</p></li><li><p>Signing off-chain messages</p></li><li><p>Signing, broadcasting, and following the execution of transactions</p></li><li><p>Financial and non financials tools</p></li><li><p>Minting NFTs or fungible tokens (ERC-20, ERC-721, ERC-1155)</p></li><li><p>Develop in any language using our SDKs and API</p></li></ul><p></p><p>1st prize - 10K</p><p>2nd prize - 5K</p><p>3nd prize - 2.5K</p><p>Special recognition (2.5K):</p><ul><li><p><strong>Web3</strong>, NFT and GameFi track</p></li><li><p><strong>Fintech</strong>, DeFi, Security and Cross chain track</p></li><li><p><strong>Next billion users</strong>, “walletless” experience for end users</p></li></ul>",
+      "acceptanceCriteria": "<ul><li><p>Sign up for the Fireblocks Developer Sandbox (https://info.fireblocks.com/ethdenver-sandbox)</p></li><li><p>Ensure your project utilizes Fireblocks wallets in some way, using the Fireblocks APIs or SDKs</p></li><li><p>Judging will be based on the most innovative use cases that rely on the Fireblocks Developer Sandbox and Fireblocks API. Be creative! We’d love to see a working MVP.</p></li><li><p>Show your work! We’d love to see your thought process, architecture notes, design considerations or issue resolutions you had to make for your project</p></li><li><p>Please list out challenges you faced using the Developer Sandbox, API or SDKs, as well as how you tackled them</p></li><li><p>Bonus points for:</p><ul><li><p>Providing valuable feedback that helps us improve the developer experience</p></li></ul></li></ul>",
+      "logoUrl": null,
+      "approvalStatus": "accepted",
+      "submittedByOrgId": "d9502cd5-c66f-495c-9984-b43f2ea62ab0",
+      "submittedByOrgName": "Fireblocks",
+      "submittedByOrgLogo": "https://org-resources.s3.amazonaws.com/d9502cd5-c66f-495c-9984-b43f2ea62ab0/logo/logo.jpg",
+      "tags": [],
+      "rewardPool": null,
+      "rewardChain": "Ethereum",
+      "rewardToken": "USDC",
+      "resources": [
+        {
+          "resourceUrl": "https://developers.fireblocks.com/page/ethdenver23",
+          "description": "BUIDL on Fireblocks @ETHDenver"
+        },
+        {
+          "resourceUrl": "http://developers.fireblocks.com",
+          "description": "Developer Portal - Documentation"
+        },
+        {
+          "resourceUrl": "https://developers.fireblocks.com/docs/sandbox-quickstart",
+          "description": "Developer Sandbox Quickstart guide"
+        },
+        {
+          "resourceUrl": "https://developers.fireblocks.com/docs/api-sdk-overview",
+          "description": "Fireblocks SDKs and tools"
+        },
+        {
+          "resourceUrl": "https://info.fireblocks.com/ethdenver-sandbox",
+          "description": " Signup for a Fireblocks Developer Sandbox"
+        },
+        {
+          "resourceUrl": "http://community.fireblocks.com",
+          "description": "Developer community (login included in sandbox registration approval)"
+        },
+        {
+          "resourceUrl": "https://www.youtube.com/watch?v=0dKzGttNtYw",
+          "description": "Bounty video"
+        },
+        {
+          "resourceUrl": "https://www.youtube.com/watch?v=EaPAJn8nxRU",
+          "description": "Judging video"
+        }
+      ],
+      "rewards": [
+        {
+          "winnerRank": 0,
+          "rewardAmountUsd": "10000"
+        },
+        {
+          "winnerRank": 1,
+          "rewardAmountUsd": "5000"
+        },
+        {
+          "winnerRank": 2,
+          "rewardAmountUsd": "2500"
+        },
+        {
+          "winnerRank": 3,
+          "rewardAmountUsd": "2500"
+        },
+        {
+          "winnerRank": 4,
+          "rewardAmountUsd": "2500"
+        },
+        {
+          "winnerRank": 5,
+          "rewardAmountUsd": "2500"
+        }
+      ],
+      "judgingParameters": [
+        {
+          "parameter": "Technical",
+          "maxScore": "100"
+        },
+        {
+          "parameter": "UX & Design",
+          "maxScore": "100"
+        },
+        {
+          "parameter": "Innovation",
+          "maxScore": "100"
+        },
+        {
+          "parameter": "Creativity",
           "maxScore": "100"
         }
       ],
@@ -9186,69 +9751,6 @@
       "resultPublished": false
     },
     {
-      "challengeId": "e5a8759d-e6b4-40f3-a6c7-32ee2994d28e",
-      "trackId": "5bec93fc-a03d-4dea-a580-f53a92c54257",
-      "name": "Build a MetaMask snap using the Truffle Snaps Box",
-      "description": "<p>Truffle boxes provide boilerplate code to get your projects started as quickly as possible. In this bounty, we want you to use our latest Truffle Snaps Box to build a MetaMask Snap that interacts with a smart contract deployed and tested with Truffle. </p>",
-      "acceptanceCriteria": "<p>Criteria In order to be eligible for this bounty, we expect to see: </p><p>- You start by unboxing the Truffle Snaps box through the CLI 'truffle unbox metamask/snap-box ' or using our VS Code extension. </p><p>- Judging will lean towards projects that are full MVPs </p><p>- A list of challenges or benefits when building snaps or using Truffle (Truffle, Ganache, or the VS Code extension)</p>",
-      "logoUrl": null,
-      "approvalStatus": "accepted",
-      "submittedByOrgId": "be93dd04-b55f-40fa-8065-4e6d03c59d5c",
-      "submittedByOrgName": "Consensys",
-      "submittedByOrgLogo": "https://org-resources.s3.amazonaws.com/be93dd04-b55f-40fa-8065-4e6d03c59d5c/logo/logo.png",
-      "tags": [],
-      "rewardPool": "1000",
-      "rewardChain": "Ethereum",
-      "rewardToken": "USDC",
-      "resources": [
-        {
-          "resourceUrl": "https://metamask.io/snaps/",
-          "description": "Learn more about snaps"
-        },
-        {
-          "resourceUrl": "https://trufflesuite.com/boxes/metamask-snap-box/",
-          "description": "Learn more about the snaps box"
-        },
-        {
-          "resourceUrl": "https://trufflesuite.com/guides/metamask-snap/",
-          "description": "How to use the snaps box"
-        },
-        {
-          "resourceUrl": "https://trufflesuite.com/docs/truffle/",
-          "description": "Truffle documentation"
-        },
-        {
-          "resourceUrl": "https://github.com/trufflesuite/ganache#documentation",
-          "description": "Ganache documentation"
-        },
-        {
-          "resourceUrl": "https://trufflesuite.com/docs/vscode-ext/",
-          "description": "Truffle for VS Code extension"
-        }
-      ],
-      "rewards": [],
-      "judgingParameters": [
-        {
-          "parameter": "Technical",
-          "maxScore": "100"
-        },
-        {
-          "parameter": "UX & Design",
-          "maxScore": "100"
-        },
-        {
-          "parameter": "Innovation",
-          "maxScore": "100"
-        },
-        {
-          "parameter": "Creativity",
-          "maxScore": "100"
-        }
-      ],
-      "minJudgeCount": null,
-      "resultPublished": false
-    },
-    {
       "challengeId": "a8dfc25b-ae72-4e1a-a66f-d3ff2d5edf44",
       "trackId": "5bec93fc-a03d-4dea-a580-f53a92c54257",
       "name": "Create an AttestationStation Visualization",
@@ -9287,6 +9789,69 @@
         {
           "resourceUrl": "https://www.youtube.com/watch?v=Y6-y9mUZ-QA",
           "description": "Bounty video"
+        }
+      ],
+      "rewards": [],
+      "judgingParameters": [
+        {
+          "parameter": "Technical",
+          "maxScore": "100"
+        },
+        {
+          "parameter": "UX & Design",
+          "maxScore": "100"
+        },
+        {
+          "parameter": "Innovation",
+          "maxScore": "100"
+        },
+        {
+          "parameter": "Creativity",
+          "maxScore": "100"
+        }
+      ],
+      "minJudgeCount": null,
+      "resultPublished": false
+    },
+    {
+      "challengeId": "e5a8759d-e6b4-40f3-a6c7-32ee2994d28e",
+      "trackId": "5bec93fc-a03d-4dea-a580-f53a92c54257",
+      "name": "Build a MetaMask snap using the Truffle Snaps Box",
+      "description": "<p>Truffle boxes provide boilerplate code to get your projects started as quickly as possible. In this bounty, we want you to use our latest Truffle Snaps Box to build a MetaMask Snap that interacts with a smart contract deployed and tested with Truffle. </p>",
+      "acceptanceCriteria": "<p>Criteria In order to be eligible for this bounty, we expect to see: </p><p>- You start by unboxing the Truffle Snaps box through the CLI 'truffle unbox metamask/snap-box ' or using our VS Code extension. </p><p>- Judging will lean towards projects that are full MVPs </p><p>- A list of challenges or benefits when building snaps or using Truffle (Truffle, Ganache, or the VS Code extension)</p>",
+      "logoUrl": null,
+      "approvalStatus": "accepted",
+      "submittedByOrgId": "a301ff9b-d07c-419b-9bbb-6da09bd7423a",
+      "submittedByOrgName": "MetaMask Snaps",
+      "submittedByOrgLogo": "https://org-resources.s3.amazonaws.com/a301ff9b-d07c-419b-9bbb-6da09bd7423a/logo/logo.png",
+      "tags": [],
+      "rewardPool": "1000",
+      "rewardChain": "Ethereum",
+      "rewardToken": "USDC",
+      "resources": [
+        {
+          "resourceUrl": "https://metamask.io/snaps/",
+          "description": "Learn more about snaps"
+        },
+        {
+          "resourceUrl": "https://trufflesuite.com/boxes/metamask-snap-box/",
+          "description": "Learn more about the snaps box"
+        },
+        {
+          "resourceUrl": "https://trufflesuite.com/guides/metamask-snap/",
+          "description": "How to use the snaps box"
+        },
+        {
+          "resourceUrl": "https://trufflesuite.com/docs/truffle/",
+          "description": "Truffle documentation"
+        },
+        {
+          "resourceUrl": "https://github.com/trufflesuite/ganache#documentation",
+          "description": "Ganache documentation"
+        },
+        {
+          "resourceUrl": "https://trufflesuite.com/docs/vscode-ext/",
+          "description": "Truffle for VS Code extension"
         }
       ],
       "rewards": [],
@@ -9382,9 +9947,9 @@
       "acceptanceCriteria": "<p>In order to be eligible for this bounty, we expect to see: </p><p>- A ganache network configured in your Truffle, HardHat, or Foundry config </p><p>- Deploying to and interacting with a forked Ganache instance in your demo video </p><p>- A list of any challenges or benefits you encountered while using Ganache </p><p>- Judging will lean towards full MVPs and applications that interact with pre-deployed contracts</p>",
       "logoUrl": null,
       "approvalStatus": "accepted",
-      "submittedByOrgId": "be93dd04-b55f-40fa-8065-4e6d03c59d5c",
-      "submittedByOrgName": "Consensys",
-      "submittedByOrgLogo": "https://org-resources.s3.amazonaws.com/be93dd04-b55f-40fa-8065-4e6d03c59d5c/logo/logo.png",
+      "submittedByOrgId": "a7449e8f-3311-4fb2-b0b3-567170b65104",
+      "submittedByOrgName": "Infura",
+      "submittedByOrgLogo": "https://org-resources.s3.amazonaws.com/a7449e8f-3311-4fb2-b0b3-567170b65104/logo/logo.jpg",
       "tags": [],
       "rewardPool": "1000",
       "rewardChain": "Ethereum",
@@ -9433,9 +9998,9 @@
       "acceptanceCriteria": "<p>In order to be eligible for this bounty, we expect to see: </p><p>- A dashboard network configured in your Truffle, HardHat, or Foundry config </p><p>- Deploying with Dashboard to a testnet in your demo video </p><p>- A list of challenges or benefits you encountered while developing with Dashboard </p><p>- Judging will lean towards full MVPs </p><p>- Nice to haves: Deploy to Dashboard via the Truffle VS Code Extension</p>",
       "logoUrl": null,
       "approvalStatus": "accepted",
-      "submittedByOrgId": "be93dd04-b55f-40fa-8065-4e6d03c59d5c",
-      "submittedByOrgName": "Consensys",
-      "submittedByOrgLogo": "https://org-resources.s3.amazonaws.com/be93dd04-b55f-40fa-8065-4e6d03c59d5c/logo/logo.png",
+      "submittedByOrgId": "a7449e8f-3311-4fb2-b0b3-567170b65104",
+      "submittedByOrgName": "Infura",
+      "submittedByOrgLogo": "https://org-resources.s3.amazonaws.com/a7449e8f-3311-4fb2-b0b3-567170b65104/logo/logo.jpg",
       "tags": [],
       "rewardPool": "1000",
       "rewardChain": "Ethereum",
@@ -9850,6 +10415,66 @@
       "resultPublished": false
     },
     {
+      "challengeId": "6c65f7bc-a180-40af-8143-b9fa4b92b708",
+      "trackId": "5bec93fc-a03d-4dea-a580-f53a92c54257",
+      "name": "Cypher Wallet Push SDK",
+      "description": "<p>CypherD Wallet Push SDK is a capability that 3rd party developers can use to push dApp events to wallet addresses by just listening to an event on smart contract and converting it into an human readable iOS/Android Push Notification.<br><br>For example, if a user gets a bid on their NFT on OpenSea, you can use Cypher Wallet Push SDK to notify the user based on the wallet address via delivering the push notification to their installed Cypher Wallet App. Cypher Wallet App needs to be installed at least in read-only mode without seed phrase.</p>",
+      "acceptanceCriteria": "<p>Use Cypher Wallet Push SDK to create a push notification for any of the existing dApp use-cases or for a new dApp that you are building.</p>",
+      "logoUrl": null,
+      "approvalStatus": "accepted",
+      "submittedByOrgId": "7e6d2633-d585-4c10-81c3-de298aabb5a0",
+      "submittedByOrgName": "Cypher Wallet",
+      "submittedByOrgLogo": "https://org-resources.s3.amazonaws.com/7e6d2633-d585-4c10-81c3-de298aabb5a0/logo/logo.png",
+      "tags": [],
+      "rewardPool": null,
+      "rewardChain": "Ethereum",
+      "rewardToken": "USDC",
+      "resources": [
+        {
+          "resourceUrl": "https://www.youtube.com/watch?v=7U6bpORcso8",
+          "description": "Bounty Video"
+        },
+        {
+          "resourceUrl": "https://www.cypherwallet.io/eth-denver-bounty",
+          "description": "Cypher Wallet ETHDenver Bounty Website"
+        },
+        {
+          "resourceUrl": "",
+          "description": null
+        }
+      ],
+      "rewards": [
+        {
+          "winnerRank": 0,
+          "rewardAmountUsd": "2000"
+        },
+        {
+          "winnerRank": 1,
+          "rewardAmountUsd": "2000"
+        },
+        {
+          "winnerRank": 2,
+          "rewardAmountUsd": "2000"
+        }
+      ],
+      "judgingParameters": [
+        {
+          "parameter": "Impact",
+          "maxScore": "100"
+        },
+        {
+          "parameter": "Completeness",
+          "maxScore": "100"
+        },
+        {
+          "parameter": "Creativity",
+          "maxScore": "100"
+        }
+      ],
+      "minJudgeCount": null,
+      "resultPublished": false
+    },
+    {
       "challengeId": "bc2633e2-fa60-46e1-82b8-d1fa7fee4d1c",
       "trackId": "5bec93fc-a03d-4dea-a580-f53a92c54257",
       "name": "Port over Ethereum dApps to Neon-EVM",
@@ -9993,66 +10618,6 @@
       "resultPublished": false
     },
     {
-      "challengeId": "6c65f7bc-a180-40af-8143-b9fa4b92b708",
-      "trackId": "5bec93fc-a03d-4dea-a580-f53a92c54257",
-      "name": "Cypher Wallet Push SDK",
-      "description": "<p>CypherD Wallet Push SDK is a capability that 3rd party developers can use to push dApp events to wallet addresses by just listening to an event on smart contract and converting it into an human readable iOS/Android Push Notification.<br><br>For example, if a user gets a bid on their NFT on OpenSea, you can use Cypher Wallet Push SDK to notify the user based on the wallet address via delivering the push notification to their installed Cypher Wallet App. Cypher Wallet App needs to be installed at least in read-only mode without seed phrase.</p>",
-      "acceptanceCriteria": "<p>Use Cypher Wallet Push SDK to create a push notification for any of the existing dApp use-cases or for a new dApp that you are building.</p>",
-      "logoUrl": null,
-      "approvalStatus": "accepted",
-      "submittedByOrgId": "7e6d2633-d585-4c10-81c3-de298aabb5a0",
-      "submittedByOrgName": "Cypher Wallet",
-      "submittedByOrgLogo": "https://org-resources.s3.amazonaws.com/7e6d2633-d585-4c10-81c3-de298aabb5a0/logo/logo.png",
-      "tags": [],
-      "rewardPool": null,
-      "rewardChain": "Ethereum",
-      "rewardToken": "USDC",
-      "resources": [
-        {
-          "resourceUrl": "https://www.youtube.com/watch?v=7U6bpORcso8",
-          "description": "Bounty Video"
-        },
-        {
-          "resourceUrl": "https://cypherwallet.webflow.io/eth-denver-bounty",
-          "description": "Cypher Wallet ETHDenver Bounty Website"
-        },
-        {
-          "resourceUrl": "",
-          "description": null
-        }
-      ],
-      "rewards": [
-        {
-          "winnerRank": 0,
-          "rewardAmountUsd": "2000"
-        },
-        {
-          "winnerRank": 1,
-          "rewardAmountUsd": "2000"
-        },
-        {
-          "winnerRank": 2,
-          "rewardAmountUsd": "2000"
-        }
-      ],
-      "judgingParameters": [
-        {
-          "parameter": "Impact",
-          "maxScore": "100"
-        },
-        {
-          "parameter": "Completeness",
-          "maxScore": "100"
-        },
-        {
-          "parameter": "Creativity",
-          "maxScore": "100"
-        }
-      ],
-      "minJudgeCount": null,
-      "resultPublished": false
-    },
-    {
       "challengeId": "18de3135-ae49-4d63-966f-227cc413b2d9",
       "trackId": "5bec93fc-a03d-4dea-a580-f53a92c54257",
       "name": "Promoted Posts Banner Widget",
@@ -10153,565 +10718,6 @@
         {
           "winnerRank": 0,
           "rewardAmountUsd": "5000"
-        }
-      ],
-      "judgingParameters": [
-        {
-          "parameter": "Technical",
-          "maxScore": "100"
-        },
-        {
-          "parameter": "UX & Design",
-          "maxScore": "100"
-        },
-        {
-          "parameter": "Innovation",
-          "maxScore": "100"
-        },
-        {
-          "parameter": "Creativity",
-          "maxScore": "100"
-        }
-      ],
-      "minJudgeCount": null,
-      "resultPublished": false
-    },
-    {
-      "challengeId": "1f52d52f-f768-455e-9e94-6ae346f9e2bf",
-      "trackId": "5bec93fc-a03d-4dea-a580-f53a92c54257",
-      "name": "BUIDL on Fireblocks ",
-      "description": "<p>Build your project by getting <strong><em>early access</em></strong> to the Fireblocks Developer Sandbox. Fireblocks is offering free, secure MPC-based wallets that work with popular Testnets. Use the Fireblocks API and SDKs to create wallets at scale, deploy smart contracts, interact cross-chain, and build the most possible use cases you can think of. The Fireblocks digital asset infrastructure is used by small startups and large enterprises in web3, crypto trading, payments and more. It’s the infrastructure that grows and scales with you, making blockchain oriented development easy and secure.</p><p><br></p><p>Almost any project can add Fireblocks as part of their stack in EthDenver!</p><p><br></p><p>What can you build using Fireblocks?</p><ul><li><p>Anything that requires wallets to operate</p></li><li><p>Custody wallets for your users, or generate one-time deposit addresses</p></li><li><p>Fireblocks wallets support multiple protocols and chains - you can run a cross chain operation in one platform</p></li><li><p>Deploy smart contracts</p></li><li><p>Interact with contracts from your backend</p></li><li><p>Signing off-chain messages</p></li><li><p>Signing, broadcasting, and following the execution of transactions</p></li><li><p>Financial and non financials tools</p></li><li><p>Minting NFTs or fungible tokens (ERC-20, ERC-721, ERC-1155)</p></li><li><p>Develop in any language using our SDKs and API</p></li></ul><p></p><p>1st prize - 10K</p><p>2nd prize - 5K</p><p>3nd prize - 2.5K</p><p>Special recognition (2.5K):</p><ul><li><p><strong>Web3</strong>, NFT and GameFi track</p></li><li><p><strong>Fintech</strong>, DeFi, Security and Cross chain track</p></li><li><p><strong>Next billion users</strong>, “walletless” experience for end users</p></li></ul>",
-      "acceptanceCriteria": "<ul><li><p>Sign up for the Fireblocks Developer Sandbox (*<em>link to come</em>)</p></li><li><p>Ensure your project utilizes Fireblocks wallets in some way, using the Fireblocks APIs or SDKs</p></li><li><p>Judging will be based on the most innovative use cases that rely on the Fireblocks Developer Sandbox and Fireblocks API. Be creative! We’d love to see a working MVP.</p></li><li><p>Show your work! We’d love to see your thought process, architecture notes, design considerations or issue resolutions you had to make for your project</p></li><li><p>Please list out challenges you faced using the Developer Sandbox, API or SDKs, as well as how you tackled them</p></li><li><p>Bonus points for:</p><ul><li><p>Providing valuable feedback that helps us improve the developer experience</p></li></ul></li></ul>",
-      "logoUrl": null,
-      "approvalStatus": "accepted",
-      "submittedByOrgId": "d9502cd5-c66f-495c-9984-b43f2ea62ab0",
-      "submittedByOrgName": "Fireblocks",
-      "submittedByOrgLogo": "https://org-resources.s3.amazonaws.com/d9502cd5-c66f-495c-9984-b43f2ea62ab0/logo/logo.jpg",
-      "tags": [],
-      "rewardPool": null,
-      "rewardChain": "Ethereum",
-      "rewardToken": "USDC",
-      "resources": [
-        {
-          "resourceUrl": "https://developers.fireblocks.com/page/ethdenver23",
-          "description": "BUIDL on Fireblocks @ETHDenver"
-        },
-        {
-          "resourceUrl": "http://developers.fireblocks.com",
-          "description": "Developer Portal - Documentation"
-        },
-        {
-          "resourceUrl": "https://developers.fireblocks.com/docs/sandbox-quickstart",
-          "description": "Developer Sandbox Quickstart guide"
-        },
-        {
-          "resourceUrl": "https://developers.fireblocks.com/docs/api-sdk-overview",
-          "description": "Fireblocks SDKs and tools"
-        },
-        {
-          "resourceUrl": "https://info.fireblocks.com/ethdenver-sandbox",
-          "description": " Signup for a Fireblocks Developer Sandbox"
-        },
-        {
-          "resourceUrl": "http://community.fireblocks.com",
-          "description": "Developer community (login included in sandbox registration approval)"
-        },
-        {
-          "resourceUrl": "https://www.youtube.com/watch?v=0dKzGttNtYw",
-          "description": "Bounty video"
-        },
-        {
-          "resourceUrl": "https://www.youtube.com/watch?v=EaPAJn8nxRU",
-          "description": "Judging video"
-        }
-      ],
-      "rewards": [
-        {
-          "winnerRank": 0,
-          "rewardAmountUsd": "10000"
-        },
-        {
-          "winnerRank": 1,
-          "rewardAmountUsd": "5000"
-        },
-        {
-          "winnerRank": 2,
-          "rewardAmountUsd": "2500"
-        },
-        {
-          "winnerRank": 3,
-          "rewardAmountUsd": "2500"
-        },
-        {
-          "winnerRank": 4,
-          "rewardAmountUsd": "2500"
-        },
-        {
-          "winnerRank": 5,
-          "rewardAmountUsd": "2500"
-        }
-      ],
-      "judgingParameters": [
-        {
-          "parameter": "Technical",
-          "maxScore": "100"
-        },
-        {
-          "parameter": "UX & Design",
-          "maxScore": "100"
-        },
-        {
-          "parameter": "Innovation",
-          "maxScore": "100"
-        },
-        {
-          "parameter": "Creativity",
-          "maxScore": "100"
-        }
-      ],
-      "minJudgeCount": null,
-      "resultPublished": false
-    },
-    {
-      "challengeId": "0e8446ac-c3ba-4ed4-80d0-1a22594c479a",
-      "trackId": "5bec93fc-a03d-4dea-a580-f53a92c54257",
-      "name": "Dynamic On-chain dWeb Applications Using web3:// Access Protocol",
-      "description": "<p>Current decentralized websites (dWebs) mainly use IPFS/AR to store static content with additional trust and limited capabilities. This bounty will encourage developers to create dynamic dWebs on smart contracts including dynamic NFTs, static websites, or powerful dynamic websites with multiple user interactions.&nbsp; We further encourage developers to use web3:// (defined in ERC-4804) to access these static/dynamic websites in a verifiable and minimum-trust way.<br><br>A couple of existing examples can be found at web3url.io, including<br>- Rendering mainnet NFTs<br>- Vitalik's blog on Arbitrum Nova<br>- Decentralized web2 applications (dropbox, blogger, etc) on EthStorage testnet</p><p></p><p>5 Projects can win 1000$ in USDC each</p>",
-      "acceptanceCriteria": "<p>- Entry Level: Use web3:// and its gateways (w3eth.io and w3link.io) to resolve a web resource on any EVM (Preferred mainnet/testnet/L2).&nbsp; E.g., images of NFT, static text.</p><p>- Medium Level: Use ERC-5018 and EthFS-Uploader (from npm) to upload local files on-chain (e.g., personal website like Vitalik's blog)</p><p>- High Level and highly encourged: Run dynamic on-chain dWeb applications with multiple user interactions (e.g., Forever Pixel War, etc)</p><p><br>A couple of existing examples can be found at w3eth.io(https://w3url.w3eth.io/) including Vitalik's blog on Arbitrum Nova (https://www.reddit.com/r/ethereum/comments/107ok8e/upload_40mb_vitaliks_blog_to_a_smart_contract_on/).<br><br>We will review and rank the submitted projects based on the completeness, the difficulties, and the innovations of the project.</p><p><br></p><p>Surprise us with your creativity!</p>",
-      "logoUrl": null,
-      "approvalStatus": "accepted",
-      "submittedByOrgId": "e0d67316-807c-4e2d-8711-0222efd4e66a",
-      "submittedByOrgName": "ETHStorage",
-      "submittedByOrgLogo": "https://org-resources.s3.amazonaws.com/e0d67316-807c-4e2d-8711-0222efd4e66a/logo/logo.jpg",
-      "tags": [],
-      "rewardPool": "5000",
-      "rewardChain": "Ethereum",
-      "rewardToken": "USDC",
-      "resources": [
-        {
-          "resourceUrl": "web3url.io",
-          "description": "web3url.io, the website introducing web3:// URLs and some examples"
-        },
-        {
-          "resourceUrl": "https://eips.ethereum.org/EIPS/eip-4804",
-          "description": "ERC-4804 https://eips.ethereum.org/EIPS/eip-4804, the full standard"
-        },
-        {
-          "resourceUrl": "https://www.reddit.com/r/ethereum/comments/107ok8e/upload_40mb_vitaliks_blog_to_a_smart_contract_on/",
-          "description": "Vitalik's blog forever hosted on Ethereum L2"
-        },
-        {
-          "resourceUrl": "https://socket.dev/npm/package/ethfs-uploader",
-          "description": "EthFS-uploader, using smart contracts to service a filesystem based on ERC-5018 and the uploader to sync local files"
-        },
-        {
-          "resourceUrl": "EthStorage.io",
-          "description": "Advanced - EthStorage.io, scaling Ethereum storage via L2 and DA"
-        }
-      ],
-      "rewards": [],
-      "judgingParameters": [
-        {
-          "parameter": "Technical",
-          "maxScore": "100"
-        },
-        {
-          "parameter": "UX & Design",
-          "maxScore": "100"
-        },
-        {
-          "parameter": "Innovation",
-          "maxScore": "100"
-        },
-        {
-          "parameter": "Creativity",
-          "maxScore": "100"
-        }
-      ],
-      "minJudgeCount": null,
-      "resultPublished": false
-    },
-    {
-      "challengeId": "96d0678e-8f30-4e2f-b1ce-df3e70c7b9a6",
-      "trackId": "5bec93fc-a03d-4dea-a580-f53a92c54257",
-      "name": "Use a GMP Protocol to Remotely Call a Contract",
-      "description": "<p>General Message Passing (GMP) Protocols allow you to send messages to other chains, including messages that contain contract call data and can trigger actions on remote chains such as buying an NFT, making a swap, &amp; much more.<br><br>Moonbeam has integrated with a variety of GMP Protocols including Axelar, Hyperlane, LayerZero, Wormhole &amp; of course, Polkadot's native XCM. These protocols make it truly easy to call a contract on a remote chain - all you need to do is specify the destination chain, the contract address you want to interact with, and the payload (contract call data). It’s that simple. <br><br>In order to be eligible for this bounty, your dApp should have at least some smart contract logic deployed to Moonbeam or Moonbase Alpha. Secondly, it needs to implement a cross-chain contract call that plays a non-trivial role in the application. As an example, if you’re building a cross-chain DEX, a cross-chain contract call that sends a message “HELLO WORLD” to another chain at random intervals would be considered trivial and not related to the dApp’s purpose.</p><p></p><p><strong><br>Getting Help</strong> - The <strong>Hackathons </strong>Channel in the Moonbeam Discord is the fastest way to get help. Of course, there will also be in-person support available during the Core Event. https://discord.com/invite/gA3YN6HmBA</p>",
-      "acceptanceCriteria": "<p>Judging<br>All Moonbeam bounties will be judged according to the standard ethDenver judging guidelines - that is: <br>Theme Fit<br>Originality &amp; Innovation<br>Ease of use (UI/UX)<br>Sustainability (marketplace viability)<br>Technical complexity<br>Level of Completion<br><br>We reserve the right to withhold prizes in cases where low-quality submissions do not meet our bounty requirements.</p><p></p><p>Sponsor Bounty Judging Team<br>Alberto Viera, Developer Relations Manager<br>Katie Butler, Director of Marketing<br>Stephen Shelton, Senior Blockchain Engineer<br>Kevin Neilson, Developer Relations Engineer</p>",
-      "logoUrl": null,
-      "approvalStatus": "accepted",
-      "submittedByOrgId": "2760b058-eabf-4495-95db-dfb94038fe35",
-      "submittedByOrgName": "Moonbeam",
-      "submittedByOrgLogo": "https://org-resources.s3.amazonaws.com/2760b058-eabf-4495-95db-dfb94038fe35/logo/logo.jpg",
-      "tags": [],
-      "rewardPool": null,
-      "rewardChain": "Ethereum",
-      "rewardToken": "USDC",
-      "resources": [
-        {
-          "resourceUrl": "https://moonbeam.network/blog/connected-contracts-axelar/",
-          "description": "https://moonbeam.network/blog/connected-contracts-axelar/"
-        },
-        {
-          "resourceUrl": "https://moonbeam.network/blog/connected-contracts-with-hyperlane/",
-          "description": "https://moonbeam.network/blog/connected-contracts-with-hyperlane/"
-        },
-        {
-          "resourceUrl": "https://moonbeam.network/blog/connected-contracts-layerzero/",
-          "description": "https://moonbeam.network/blog/connected-contracts-layerzero/"
-        },
-        {
-          "resourceUrl": "https://moonbeam.network/blog/connected-contracts-wormhole/",
-          "description": "https://moonbeam.network/blog/connected-contracts-wormhole/"
-        },
-        {
-          "resourceUrl": "https://docs.moonbeam.network/builders/interoperability/xcm/overview/",
-          "description": "https://docs.moonbeam.network/builders/interoperability/xcm/overview/"
-        },
-        {
-          "resourceUrl": "https://github.com/PureStake/Moonbuilders-Hackathon-Survival-Kit",
-          "description": "https://github.com/PureStake/Moonbuilders-Hackathon-Survival-Kit"
-        },
-        {
-          "resourceUrl": "https://www.youtube.com/watch?v=vEVXRlzZt5k",
-          "description": "Bounty video"
-        },
-        {
-          "resourceUrl": "https://www.youtube.com/watch?v=dkgoKeUl4Ew",
-          "description": "Judging video"
-        }
-      ],
-      "rewards": [
-        {
-          "winnerRank": 0,
-          "rewardAmountUsd": "4000"
-        },
-        {
-          "winnerRank": 1,
-          "rewardAmountUsd": "1000"
-        }
-      ],
-      "judgingParameters": [
-        {
-          "parameter": "Technical",
-          "maxScore": "100"
-        },
-        {
-          "parameter": "UX & Design",
-          "maxScore": "100"
-        },
-        {
-          "parameter": "Innovation",
-          "maxScore": "100"
-        },
-        {
-          "parameter": "Creativity",
-          "maxScore": "100"
-        }
-      ],
-      "minJudgeCount": null,
-      "resultPublished": false
-    },
-    {
-      "challengeId": "bafc15fa-e86e-4727-b2d9-be4eb3608ffd",
-      "trackId": "5bec93fc-a03d-4dea-a580-f53a92c54257",
-      "name": "Smart Contracts in Sway",
-      "description": "<p>Build a smart contract in Sway, a Rust-based language</p>",
-      "acceptanceCriteria": "<p>Project must be deployed on Fuel and it must include smart contracts written in Sway, Fuel's rust based DSL. Please show a steady commit trail or provenance and thought process e.g. sketches, discussion, and issues on how you arrived at the decision to incorporate this feature.&nbsp;</p><p></p><p>Judging criteria:</p><ol><li><p><strong>Technical Implementation:</strong> Technical implementation and quality of contract deployed on testnet Weight = 3</p></li><li><p><strong>Design:</strong> Quality of the UI/UX of the Fuel dapp and Sway smart contract Weight = 2</p></li><li><p><strong>Creativity:</strong> The submission should be built with creativity in mind to reflect the team’s passion for building with Sway Weight = 2</p></li><li><p><strong>Quality of Idea:</strong> Quality of the idea/use-case/problem statement. A unique project stands a higher chance to win than one that has been implemented before Weight = 2</p></li></ol><p><strong>Developer Feedback: </strong>Quality and quantity of feedback and questions on the experience of building with Fuel in the developer forum (https://forum.fuel.network/) Weight = 1</p>",
-      "logoUrl": null,
-      "approvalStatus": "accepted",
-      "submittedByOrgId": "cf4faee5-1f6f-45c2-b055-3f00ea8a6149",
-      "submittedByOrgName": "Fuel Labs",
-      "submittedByOrgLogo": "https://org-resources.s3.amazonaws.com/cf4faee5-1f6f-45c2-b055-3f00ea8a6149/logo/logo.png",
-      "tags": [],
-      "rewardPool": null,
-      "rewardChain": "Ethereum",
-      "rewardToken": "USDC",
-      "resources": [
-        {
-          "resourceUrl": "https://fuellabs.github.io/fuel-docs/master/",
-          "description": "https://fuellabs.github.io/fuel-docs/master/"
-        },
-        {
-          "resourceUrl": "https://github.com/FuelLabs/sway-applications/",
-          "description": "https://github.com/FuelLabs/sway-applications/"
-        },
-        {
-          "resourceUrl": "https://fuellabs.github.io/sway/master/book/",
-          "description": "https://fuellabs.github.io/sway/master/book/"
-        }
-      ],
-      "rewards": [
-        {
-          "winnerRank": 0,
-          "rewardAmountUsd": "1000"
-        },
-        {
-          "winnerRank": 1,
-          "rewardAmountUsd": "1000"
-        }
-      ],
-      "judgingParameters": [
-        {
-          "parameter": "Technical",
-          "maxScore": "300"
-        },
-        {
-          "parameter": "UX & Design",
-          "maxScore": "200"
-        },
-        {
-          "parameter": "Creativity",
-          "maxScore": "200"
-        },
-        {
-          "parameter": "Quality of Idea",
-          "maxScore": "200"
-        },
-        {
-          "parameter": "Developer Feedback",
-          "maxScore": "100"
-        }
-      ],
-      "minJudgeCount": null,
-      "resultPublished": false
-    },
-    {
-      "challengeId": "4a0d6b63-cc2c-446c-bf4a-505cf830e5d0",
-      "trackId": "5bec93fc-a03d-4dea-a580-f53a92c54257",
-      "name": "Improve fRPC Substrate",
-      "description": "<p>Number of Bounties: 3</p><p></p><p>Improve the fRPC Starter substrate to make it more general, robust or performant. Improvements which may include * expanding the available set of blockchain API providers, i.e., Infura, Alchemy, and Link * creating an fRPC \"\"balancer\"\" for real-time blockchain API provider selection according to discriminators such as geolocation, reputation or availability * adding additional RPC methods to accommodate specific or custom EVM implementations * supporting different API key submissions mechanisms such as a string in the request header.</p>",
-      "acceptanceCriteria": "<p>Fork the fRPC Starter repo, generously document your solution, provide a dockerized demo of your solution and provide a three to five minute video shilling your masterpiece.</p>",
-      "logoUrl": null,
-      "approvalStatus": "accepted",
-      "submittedByOrgId": "b94030ef-e65a-4c31-bc31-03ae6f9cdb0c",
-      "submittedByOrgName": "Fluence",
-      "submittedByOrgLogo": "https://org-resources.s3.amazonaws.com/b94030ef-e65a-4c31-bc31-03ae6f9cdb0c/logo/logo.jpg",
-      "tags": [],
-      "rewardPool": null,
-      "rewardChain": "Ethereum",
-      "rewardToken": "ETH",
-      "resources": [
-        {
-          "resourceUrl": "https://github.com/fluencelabs/ethdenver-2023/blob/main/README.md",
-          "description": "Repo Readme"
-        },
-        {
-          "resourceUrl": "https://www.youtube.com/watch?v=Y264TTUytwM",
-          "description": "Bounty video"
-        }
-      ],
-      "rewards": [
-        {
-          "winnerRank": 0,
-          "rewardAmountUsd": "3000"
-        },
-        {
-          "winnerRank": 1,
-          "rewardAmountUsd": "2000"
-        },
-        {
-          "winnerRank": 2,
-          "rewardAmountUsd": "1000"
-        }
-      ],
-      "judgingParameters": [
-        {
-          "parameter": "Technical",
-          "maxScore": "100"
-        },
-        {
-          "parameter": "UX & Design",
-          "maxScore": "100"
-        },
-        {
-          "parameter": "Innovation",
-          "maxScore": "100"
-        },
-        {
-          "parameter": "Creativity",
-          "maxScore": "100"
-        }
-      ],
-      "minJudgeCount": null,
-      "resultPublished": false
-    },
-    {
-      "challengeId": "33b51e2f-b72f-48ad-a7af-bf819b2dcc6e",
-      "trackId": "5bec93fc-a03d-4dea-a580-f53a92c54257",
-      "name": "MetaMask Snaps - Identity 🪪 & Communication 💬",
-      "description": "<p>Build a snap that helps end users with their decentralized identity and/or web3 communications.&nbsp;<br><br><strong>About</strong><br>Extend the functionality of MetaMask. The most popular wallet is now an extensible platform for permissionless innovation. Bring your features and APIs to MetaMask with Snaps.<br><br>A Snap is a program run in an isolated environment that customizes and extends the wallet experience. We are looking for new and interesting use cases to modify MetaMask using Snaps.</p>",
-      "acceptanceCriteria": "<p><strong>Submission requirements</strong><br>Novel - We are looking for new and interesting use cases made possible only via the Snaps platform. Snaps must extend wallet functionality in a meaningful way. Simple use cases where the dapp could have existed without a Snap will not be awarded.<br>Derp - Repos must contain a text file named “spork.txt” with the phrase “Denver lays claim to the invention of the cheeseburger” This attention to detail helps us reward genuine effort and identify quality projects. <br>Monorepo - Use a monorepo structure (scaffold projects with the guide or the CLI to get started). Feel free to construct a more complex front-end React.<br>README - README should detail what the project is, what it aims to accomplish, steps for running locally etc. <br>Run It - Submissions must hosted or runnable locally<br><br><br><strong>Judging Criteria</strong><br>Innovative - The project uses Snaps in a novel way. It explores something that couldn’t be done before.<br>Impact - Does the solution provide something useful to the users?<br>Functional - Does the solution actually work?</p>",
-      "logoUrl": null,
-      "approvalStatus": "accepted",
-      "submittedByOrgId": "a301ff9b-d07c-419b-9bbb-6da09bd7423a",
-      "submittedByOrgName": "MetaMask Snaps",
-      "submittedByOrgLogo": "https://org-resources.s3.amazonaws.com/a301ff9b-d07c-419b-9bbb-6da09bd7423a/logo/logo.png",
-      "tags": [],
-      "rewardPool": null,
-      "rewardChain": "Ethereum",
-      "rewardToken": "USDC",
-      "resources": [
-        {
-          "resourceUrl": "https://ethglobal.com/guides/introduction-to-metamask-snaps-54ej1",
-          "description": "Intro guide"
-        },
-        {
-          "resourceUrl": "https://docs.metamask.io/guide/snaps.html",
-          "description": "Dev docs"
-        },
-        {
-          "resourceUrl": "https://github.com/MetaMask/snaps-monorepo/discussions/675 ",
-          "description": "GitHub"
-        },
-        {
-          "resourceUrl": "https://discord.gg/pVJMaDQt3b \t",
-          "description": "Technical support via Discord"
-        },
-        {
-          "resourceUrl": "https://twitter.com/metamaskdev",
-          "description": "Twitter"
-        },
-        {
-          "resourceUrl": "https://www.youtube.com/watch?v=6-VB978ZcrU",
-          "description": "Bounty video"
-        },
-        {
-          "resourceUrl": "https://www.youtube.com/watch?v=xRHQOZtBiKI",
-          "description": "Judging video"
-        }
-      ],
-      "rewards": [
-        {
-          "winnerRank": 0,
-          "rewardAmountUsd": "3000"
-        },
-        {
-          "winnerRank": 1,
-          "rewardAmountUsd": "2000"
-        },
-        {
-          "winnerRank": 2,
-          "rewardAmountUsd": "1000"
-        },
-        {
-          "winnerRank": 3,
-          "rewardAmountUsd": "1000"
-        }
-      ],
-      "judgingParameters": [
-        {
-          "parameter": "Technical",
-          "maxScore": "100"
-        },
-        {
-          "parameter": "UX & Design",
-          "maxScore": "100"
-        },
-        {
-          "parameter": "Innovation",
-          "maxScore": "100"
-        },
-        {
-          "parameter": "Creativity",
-          "maxScore": "100"
-        }
-      ],
-      "minJudgeCount": null,
-      "resultPublished": false
-    },
-    {
-      "challengeId": "caa514c9-27d1-4b21-8745-ca919c803e56",
-      "trackId": "5bec93fc-a03d-4dea-a580-f53a92c54257",
-      "name": "Game7 - Expand and Improve Diamond Blueprinter",
-      "description": "<p>The problem experienced by the greatest number of Web3 Developers in the development of Web3 products as cited in the&nbsp;G7 Industry Report was a lack of off-the-shelf smart contracts that are commonly used. The contracts should be easy to find, should be queryable by common use cases, should be secure and should be battle tested.<br><br>The Diamond Blueprinter (https://github.com/G7DAO/diamond-blueprinter#) organizes these functions as commonly used contracts that meet common use cases and still allows the developer to further customize the contract to meet their specific needs.<br><br>Suggestion<br><br>Add a library of facets to the G7DAO Diamond Blueprinter [https://github.com/G7DAO/diamond-blueprinter] repository.<br><br>Roadmap also holds multiple ideas you can utilize:<br>https://github.com/G7DAO/diamond-blueprinter#diamond-blueprinter-roadmap<br><br>In addition, any submission(s) that pass the eligibility criteria and receive a bounty will be prioritized for a subsequent Game7 grant as an extended engagement. We truly believe that any products/tools being built as a part of this prompt will greatly benefit the web3 gaming space. If there are any teams that want to continue building out their projects after the event, we are happy to explore ways for you to obtain funding in the form of grants!</p>",
-      "acceptanceCriteria": "<p>- Objective usefulness for web3 community and users of Blueprinter<br>- Completeness and Implementation of the submission<br>- Technical Execution</p><p><br></p><p>We reserve the right to withhold prizing in cases where low-quality submissions do not meet our bounty requirements.</p>",
-      "logoUrl": null,
-      "approvalStatus": "accepted",
-      "submittedByOrgId": "02a5b353-1f9b-4adf-afc7-f12415eb2d51",
-      "submittedByOrgName": "Game7",
-      "submittedByOrgLogo": "https://org-resources.s3.amazonaws.com/02a5b353-1f9b-4adf-afc7-f12415eb2d51/logo/logo.jpg",
-      "tags": [],
-      "rewardPool": null,
-      "rewardChain": "Ethereum",
-      "rewardToken": "USDC",
-      "resources": [
-        {
-          "resourceUrl": "https://github.com/G7DAO/diamond-blueprinter",
-          "description": "GitHub - https://github.com/G7DAO/diamond-blueprinter"
-        },
-        {
-          "resourceUrl": "https://eips.ethereum.org/EIPS/eip",
-          "description": " EIP-2535 - https://eips.ethereum.org/EIPS/eip"
-        },
-        {
-          "resourceUrl": "https://www.youtube.com/watch?v=JlU_VkyajEY",
-          "description": "Bounty video"
-        }
-      ],
-      "rewards": [
-        {
-          "winnerRank": 0,
-          "rewardAmountUsd": "1000"
-        }
-      ],
-      "judgingParameters": [
-        {
-          "parameter": "Technical",
-          "maxScore": "100"
-        },
-        {
-          "parameter": "UX & Design",
-          "maxScore": "100"
-        },
-        {
-          "parameter": "Innovation",
-          "maxScore": "100"
-        },
-        {
-          "parameter": "Creativity",
-          "maxScore": "100"
-        }
-      ],
-      "minJudgeCount": null,
-      "resultPublished": false
-    },
-    {
-      "challengeId": "126292a9-b953-45b5-afc8-7c5e54079a6f",
-      "trackId": "5bec93fc-a03d-4dea-a580-f53a92c54257",
-      "name": "Game7 - Auto-approve transactions using Metamask Snaps",
-      "description": "<p>Every time a web3 game wants to do an in-game transaction, a Metamask window pops up to sign the transaction, which offers bad UX by breaking the flow of the game****<br><br>A Metamask Snap allows specific transaction profiles to be automatically signed and submitted to the blockchain, bypassing the Metamask pop-up window and allowing a smooth in-game experience<br><br>Metamask Snaps can be used to generate and sign transactions on the user's behalf.<br>To ensure user safety, this snap will clearly define which smart contract, which function call, and the range of acceptable parameters.<br><br>We ask you to improve AutoTx Snap - https://github.com/G7DAO/AutoTx<br><br>For example, by adding the ability to pre-approve based on max spend ahead of time. Or any other user experience solution you might see fit.</p>",
-      "acceptanceCriteria": "<ul><li><p>Objective usefulness for web3 community and users of Blueprinter</p></li><li><p>Completeness and Implementation of the submission</p></li><li><p>Technical Execution</p></li></ul><p><br></p><p>In addition, any submission(s) that pass the eligibility criteria and receive a bounty will be prioritized for a subsequent Game7 grant as an extended engagement. We truly believe that any products/tools being built as a part of this prompt will greatly benefit the web3 gaming space. If there are any teams that want to continue building out their projects after the event, we are happy to explore ways for you to obtain funding in the form of grants!</p>",
-      "logoUrl": null,
-      "approvalStatus": "accepted",
-      "submittedByOrgId": "02a5b353-1f9b-4adf-afc7-f12415eb2d51",
-      "submittedByOrgName": "Game7",
-      "submittedByOrgLogo": "https://org-resources.s3.amazonaws.com/02a5b353-1f9b-4adf-afc7-f12415eb2d51/logo/logo.jpg",
-      "tags": [],
-      "rewardPool": null,
-      "rewardChain": "Ethereum",
-      "rewardToken": "USDC",
-      "resources": [
-        {
-          "resourceUrl": "https://github.com/G7DAO/AutoTx",
-          "description": "Github - https://github.com/G7DAO/AutoTx "
-        },
-        {
-          "resourceUrl": "https://metamask.io/snaps",
-          "description": "Metamask Snaps - https://metamask.io/snaps"
-        },
-        {
-          "resourceUrl": "https://www.youtube.com/watch?v=JlU_VkyajEY",
-          "description": "Bounty video"
-        }
-      ],
-      "rewards": [
-        {
-          "winnerRank": 0,
-          "rewardAmountUsd": "1000"
-        },
-        {
-          "winnerRank": 1,
-          "rewardAmountUsd": "0"
         }
       ],
       "judgingParameters": [
@@ -10866,6 +10872,146 @@
       "resultPublished": false
     },
     {
+      "challengeId": "49356e73-7e1a-4137-a9c3-6acd11102aa5",
+      "trackId": "5bec93fc-a03d-4dea-a580-f53a92c54257",
+      "name": "Enable Huma with a new payment network or payroll provider",
+      "description": "<p>Huma launched the first on-chain factoring solution with Request Network and Superfluid so that the invoice or streamed payment receivers get paid now instead of waiting for a long time. This enables people and businesses to access their future income whenever they need.&nbsp;<br><br>Integrate with an on-chain or off-chain payment network or a payroll provider to enable Huma’s factoring capability for these platforms.&nbsp; <br>&nbsp; <br>A typical demo should demonstrate at least 2 of the following functions :&nbsp;<br>1.&nbsp; Tokenization of future payment&nbsp;<br>2.&nbsp; Extension of Huma ReceivableFactoringPool contract to suit your needs<br>3.&nbsp; A decision module on eligibility of payments for factoring (Huma Evaluation Agent preferred, other solutions acceptable if Python is not your thing)<br>4.&nbsp; An end-user experience</p><p></p><p>- &nbsp; WE COMMIT TO PROVIDE THE BEST DEVELOPER SUPPORT!&nbsp;</p>",
+      "acceptanceCriteria": "<p>- &nbsp; Prototype that demonstrates the end-to-end flow.&nbsp;<br>- &nbsp; Tokenize the payment stream and have a decent design for credit risk management.&nbsp;<br>- &nbsp; Use Huma protocol</p><p></p><p>We reserve the right to withhold in cases where low-quality submissions do not meet our bounty requirements.</p>",
+      "logoUrl": null,
+      "approvalStatus": "accepted",
+      "submittedByOrgId": "746207cc-d120-4b38-afb7-978e3c1e2e6d",
+      "submittedByOrgName": "Huma",
+      "submittedByOrgLogo": "https://org-resources.s3.amazonaws.com/746207cc-d120-4b38-afb7-978e3c1e2e6d/logo/logo.png",
+      "tags": [],
+      "rewardPool": null,
+      "rewardChain": "Ethereum",
+      "rewardToken": "USDC",
+      "resources": [
+        {
+          "resourceUrl": "https://www.youtube.com/watch?v=vUPT0AymeNg",
+          "description": "Bounty video"
+        },
+        {
+          "resourceUrl": "https://huma.finance",
+          "description": "Huma Finance"
+        },
+        {
+          "resourceUrl": "https://docs.huma.finance/",
+          "description": "Huma Whitepaper"
+        },
+        {
+          "resourceUrl": "https://github.com/00labs/huma-contracts",
+          "description": "Huma Protocol"
+        },
+        {
+          "resourceUrl": "https://discord.gg/ZS52HM2tHG",
+          "description": "HUMAnity Discord"
+        },
+        {
+          "resourceUrl": "https://request.network/en/2022/12/20/request-and-huma-to-make-web3-invoice-factoring-a-reality/](https://request.network/en/2022/12/20/request-and-huma-to-make-web3-invoice-factoring-a-reality/)",
+          "description": "Example - Integration with RequestNetwork"
+        }
+      ],
+      "rewards": [
+        {
+          "winnerRank": 0,
+          "rewardAmountUsd": "5000"
+        }
+      ],
+      "judgingParameters": [
+        {
+          "parameter": "Technical",
+          "maxScore": "100"
+        },
+        {
+          "parameter": "UX & Design",
+          "maxScore": "100"
+        },
+        {
+          "parameter": "Innovation",
+          "maxScore": "100"
+        },
+        {
+          "parameter": "Creativity",
+          "maxScore": "100"
+        }
+      ],
+      "minJudgeCount": null,
+      "resultPublished": false
+    },
+    {
+      "challengeId": "ec48ec76-7af7-4002-9a5d-eb777d3538aa",
+      "trackId": "5bec93fc-a03d-4dea-a580-f53a92c54257",
+      "name": "A credit line for every wallet",
+      "description": "<p>Today, each wallet functions as a debit card. We envision a credit line for every wallet so that people can borrow or spend as needed, similar to a credit card in real life. The development of account abstraction makes it easier to turn this vision into reality. <br><br>Showcase the power of account abstraction wallet and Huma Protocol by having a credit line for every wallet. It is critical for successful projects to demonstrate mechanisms that will ensure seamless payback of the debt, and drive accountability. You can use mechanisms like social vouching or staking, DIDs and on-chain reputation systems, shared custody of assets, and any other wild ideas you may have.</p><p></p><p>WE COMMIT TO PROVIDE THE BEST DEVELOPER SUPPORT!&nbsp;</p><p></p><p>- &nbsp; Open sourced smart contract wallets to consider</p><p>[soulwallet](https://github.com/proofofsoulprotocol/soul-wallet-contract), </p><p>[argent](https://github.com/argentlabs/argent-contracts), </p><p>[eth-infinitism](https://github.com/eth-infinitism/account-abstraction/tree/develop/contracts), </p><p>[stackup](https://github.com/stackup-wallet/stackup/tree/main/apps/contracts), [bcnmy](https://github.com/bcnmy/scw-contracts), </p><p>[dharma](https://github.com/dharma-eng/dharma-smart-wallet), </p><p>etc</p>",
+      "acceptanceCriteria": "<p>- &nbsp; WOW effect and creativity matter the most<br> - &nbsp; Prototype that works (credit line for each wallet, sound mechanism to minimize default)<br> - &nbsp; Use Huma protocol (lending contracts, DSP, EA)<br> - &nbsp; [Bonus] Build with account abstraction wallet<br> - &nbsp; [Bonus] The solution is implemented with a privacy-preserving design</p>",
+      "logoUrl": null,
+      "approvalStatus": "accepted",
+      "submittedByOrgId": "746207cc-d120-4b38-afb7-978e3c1e2e6d",
+      "submittedByOrgName": "Huma",
+      "submittedByOrgLogo": "https://org-resources.s3.amazonaws.com/746207cc-d120-4b38-afb7-978e3c1e2e6d/logo/logo.png",
+      "tags": [],
+      "rewardPool": null,
+      "rewardChain": "Ethereum",
+      "rewardToken": "USDC",
+      "resources": [
+        {
+          "resourceUrl": "https://www.youtube.com/watch?v=vUPT0AymeNg",
+          "description": "Bounty video"
+        },
+        {
+          "resourceUrl": "https://huma.finance",
+          "description": "Huma Finance"
+        },
+        {
+          "resourceUrl": "https://docs.huma.finance",
+          "description": "Huma Whitepaper"
+        },
+        {
+          "resourceUrl": "https://github.com/00labs/huma-signals/",
+          "description": "Huma Decentralized Signal Adaptor"
+        },
+        {
+          "resourceUrl": "https://github.com/00labs/huma-contracts",
+          "description": "Huma Protocol contracts"
+        },
+        {
+          "resourceUrl": "https://discord.gg/ZS52HM2tHG",
+          "description": "HUMAnity Discord"
+        }
+      ],
+      "rewards": [
+        {
+          "winnerRank": 0,
+          "rewardAmountUsd": "7500"
+        },
+        {
+          "winnerRank": 1,
+          "rewardAmountUsd": "2500"
+        }
+      ],
+      "judgingParameters": [
+        {
+          "parameter": "UX & Design",
+          "maxScore": "100"
+        },
+        {
+          "parameter": "Innovation",
+          "maxScore": "100"
+        },
+        {
+          "parameter": "Creativity",
+          "maxScore": "100"
+        },
+        {
+          "parameter": "Technical",
+          "maxScore": "100"
+        }
+      ],
+      "minJudgeCount": null,
+      "resultPublished": false
+    },
+    {
       "challengeId": "fbcee932-fb4c-4d2a-9f1c-affc7f553527",
       "trackId": "5bec93fc-a03d-4dea-a580-f53a92c54257",
       "name": "Tell the future of HUMAnity Story",
@@ -10914,74 +11060,6 @@
         {
           "winnerRank": 1,
           "rewardAmountUsd": "250"
-        }
-      ],
-      "judgingParameters": [
-        {
-          "parameter": "Technical",
-          "maxScore": "100"
-        },
-        {
-          "parameter": "UX & Design",
-          "maxScore": "100"
-        },
-        {
-          "parameter": "Innovation",
-          "maxScore": "100"
-        },
-        {
-          "parameter": "Creativity",
-          "maxScore": "100"
-        }
-      ],
-      "minJudgeCount": null,
-      "resultPublished": false
-    },
-    {
-      "challengeId": "49356e73-7e1a-4137-a9c3-6acd11102aa5",
-      "trackId": "5bec93fc-a03d-4dea-a580-f53a92c54257",
-      "name": "Enable Huma with a new payment network or payroll provider",
-      "description": "<p>Huma launched the first on-chain factoring solution with Request Network and Superfluid so that the invoice or streamed payment receivers get paid now instead of waiting for a long time. This enables people and businesses to access their future income whenever they need.&nbsp;<br><br>Integrate with an on-chain or off-chain payment network or a payroll provider to enable Huma’s factoring capability for these platforms.&nbsp; <br>&nbsp; <br>A typical demo should demonstrate at least 2 of the following functions :&nbsp;<br>1.&nbsp; Tokenization of future payment&nbsp;<br>2.&nbsp; Extension of Huma ReceivableFactoringPool contract to suit your needs<br>3.&nbsp; A decision module on eligibility of payments for factoring (Huma Evaluation Agent preferred, other solutions acceptable if Python is not your thing)<br>4.&nbsp; An end-user experience</p><p></p><p>- &nbsp; WE COMMIT TO PROVIDE THE BEST DEVELOPER SUPPORT!&nbsp;</p>",
-      "acceptanceCriteria": "<p>- &nbsp; Prototype that demonstrates the end-to-end flow.&nbsp;<br>- &nbsp; Tokenize the payment stream and have a decent design for credit risk management.&nbsp;<br>- &nbsp; Use Huma protocol</p><p></p><p>We reserve the right to withhold in cases where low-quality submissions do not meet our bounty requirements.</p>",
-      "logoUrl": null,
-      "approvalStatus": "accepted",
-      "submittedByOrgId": "746207cc-d120-4b38-afb7-978e3c1e2e6d",
-      "submittedByOrgName": "Huma",
-      "submittedByOrgLogo": "https://org-resources.s3.amazonaws.com/746207cc-d120-4b38-afb7-978e3c1e2e6d/logo/logo.png",
-      "tags": [],
-      "rewardPool": null,
-      "rewardChain": "Ethereum",
-      "rewardToken": "USDC",
-      "resources": [
-        {
-          "resourceUrl": "https://www.youtube.com/watch?v=vUPT0AymeNg",
-          "description": "Bounty video"
-        },
-        {
-          "resourceUrl": "https://huma.finance",
-          "description": "Huma Finance"
-        },
-        {
-          "resourceUrl": "https://docs.huma.finance/",
-          "description": "Huma Whitepaper"
-        },
-        {
-          "resourceUrl": "https://github.com/00labs/huma-contracts",
-          "description": "Huma Protocol"
-        },
-        {
-          "resourceUrl": "https://discord.gg/ZS52HM2tHG",
-          "description": "HUMAnity Discord"
-        },
-        {
-          "resourceUrl": "https://request.network/en/2022/12/20/request-and-huma-to-make-web3-invoice-factoring-a-reality/](https://request.network/en/2022/12/20/request-and-huma-to-make-web3-invoice-factoring-a-reality/)",
-          "description": "Example - Integration with RequestNetwork"
-        }
-      ],
-      "rewards": [
-        {
-          "winnerRank": 0,
-          "rewardAmountUsd": "5000"
         }
       ],
       "judgingParameters": [
@@ -11150,59 +11228,39 @@
       "resultPublished": false
     },
     {
-      "challengeId": "ec48ec76-7af7-4002-9a5d-eb777d3538aa",
+      "challengeId": "45608de5-ea4f-4228-9358-cc6feff6b994",
       "trackId": "5bec93fc-a03d-4dea-a580-f53a92c54257",
-      "name": "A credit line for every wallet",
-      "description": "<p>Today, each wallet functions as a debit card. We envision a credit line for every wallet so that people can borrow or spend as needed, similar to a credit card in real life. The development of account abstraction makes it easier to turn this vision into reality. <br><br>Showcase the power of account abstraction wallet and Huma Protocol by having a credit line for every wallet. It is critical for successful projects to demonstrate mechanisms that will ensure seamless payback of the debt, and drive accountability. You can use mechanisms like social vouching or staking, DIDs and on-chain reputation systems, shared custody of assets, and any other wild ideas you may have.</p><p></p><p>WE COMMIT TO PROVIDE THE BEST DEVELOPER SUPPORT!&nbsp;</p><p></p><p>- &nbsp; Open sourced smart contract wallets to consider</p><p>[soulwallet](https://github.com/proofofsoulprotocol/soul-wallet-contract), </p><p>[argent](https://github.com/argentlabs/argent-contracts), </p><p>[eth-infinitism](https://github.com/eth-infinitism/account-abstraction/tree/develop/contracts), </p><p>[stackup](https://github.com/stackup-wallet/stackup/tree/main/apps/contracts), [bcnmy](https://github.com/bcnmy/scw-contracts), </p><p>[dharma](https://github.com/dharma-eng/dharma-smart-wallet), </p><p>etc</p>",
-      "acceptanceCriteria": "<p>- &nbsp; WOW effect and creativity matter the most<br> - &nbsp; Prototype that works (credit line for each wallet, sound mechanism to minimize default)<br> - &nbsp; Use Huma protocol (lending contracts, DSP, EA)<br> - &nbsp; [Bonus] Build with account abstraction wallet<br> - &nbsp; [Bonus] The solution is implemented with a privacy-preserving design</p>",
+      "name": "Nuvo",
+      "description": "<p>Nuvo is a decentralized Web2 and Web3 application credentialing system. It provides an open engagement &amp; reputation framework while preserving user data privacy and ownership. Application developers gain robust engagement and retention capabilities while reducing the cost and liability associated with storing user data. Users may optionally share their application usage data with marketers and other applications for token incentives.</p><p></p><p>We’re looking for innovative projects, tools, and features incorporating NuvoPower or “NP” (previously Matrix Reputation Power system).&nbsp;</p><p></p><p>Tools and dApps can use NP to build community, reward contributors, recognize achievements, establish identity, and more. We’re especially interested in use cases of NP representing an identity layer in your project (on-chain credentials) for dApps, web3 applications, and community contribution or engagement.</p><p></p><p>We are also especially interested in projects bridging the gap between web2 and web3, data ownership, and blockchain abstraction to the end user.<br><br>Nuvo bounty winners will be eligible to claim VIP Developer badge when it’s available:</p><p></p><p>1st: Nuvo VIP Developer Level 1 Badge (worth $5,000+ )</p><p>2nd: Nuvo VIP Developer Level 1 Badge (worth $5,000+ )</p><p>3rd: Nuvo VIP Developer Level 1 Badge (worth $5,000+ )</p><p><br></p>",
+      "acceptanceCriteria": "<h2><strong>Submission Requirements</strong></h2><ul><li><p>Pitch deck or problem statement solving issues in one or more of the following:</p><ul><li><p>Data ownership</p></li><li><p>Community engagement or development</p></li><li><p>Customer loyalty or exclusivity</p></li><li><p>Training and education</p></li><li><p>Digital identity</p></li></ul></li><li><p>Demonstration of NuvoPower used</p></li><li><p>Roadmap of how NuvoPower will be used</p></li></ul><p>Developer should be on our Discord (https://discord.gg/3jnuatySTt) and follow Twitter (@nuvosphere)</p>",
       "logoUrl": null,
       "approvalStatus": "accepted",
-      "submittedByOrgId": "746207cc-d120-4b38-afb7-978e3c1e2e6d",
-      "submittedByOrgName": "Huma",
-      "submittedByOrgLogo": "https://org-resources.s3.amazonaws.com/746207cc-d120-4b38-afb7-978e3c1e2e6d/logo/logo.png",
+      "submittedByOrgId": "ca76af8c-3952-410e-bfe7-f8bb5b66d45b",
+      "submittedByOrgName": "Metis",
+      "submittedByOrgLogo": "https://org-resources.s3.amazonaws.com/ca76af8c-3952-410e-bfe7-f8bb5b66d45b/logo/logo.png",
       "tags": [],
       "rewardPool": null,
       "rewardChain": "Ethereum",
       "rewardToken": "USDC",
       "resources": [
         {
-          "resourceUrl": "https://www.youtube.com/watch?v=vUPT0AymeNg",
-          "description": "Bounty video"
-        },
-        {
-          "resourceUrl": "https://huma.finance",
-          "description": "Huma Finance"
-        },
-        {
-          "resourceUrl": "https://docs.huma.finance",
-          "description": "Huma Whitepaper"
-        },
-        {
-          "resourceUrl": "https://github.com/00labs/huma-signals/",
-          "description": "Huma Decentralized Signal Adaptor"
-        },
-        {
-          "resourceUrl": "https://github.com/00labs/huma-contracts",
-          "description": "Huma Protocol contracts"
-        },
-        {
-          "resourceUrl": "https://discord.gg/ZS52HM2tHG",
-          "description": "HUMAnity Discord"
+          "resourceUrl": "https://docs.matrix.tech/matrix/reputation-power-web-3.0-for-dapp-owners",
+          "description": "Technical documents"
         }
       ],
       "rewards": [
         {
           "winnerRank": 0,
-          "rewardAmountUsd": "7500"
+          "rewardAmountUsd": "2000"
         },
         {
           "winnerRank": 1,
-          "rewardAmountUsd": "2500"
+          "rewardAmountUsd": "1000"
         }
       ],
       "judgingParameters": [
         {
-          "parameter": "UX & Design",
+          "parameter": "Vision ",
           "maxScore": "100"
         },
         {
@@ -11210,15 +11268,207 @@
           "maxScore": "100"
         },
         {
-          "parameter": "Creativity",
+          "parameter": "Usability",
           "maxScore": "100"
         },
         {
-          "parameter": "Technical",
+          "parameter": "Use case of NuvoPower",
+          "maxScore": "100"
+        },
+        {
+          "parameter": "Working version of the DApp",
           "maxScore": "100"
         }
       ],
-      "minJudgeCount": null,
+      "minJudgeCount": 1,
+      "resultPublished": false
+    },
+    {
+      "challengeId": "dc105976-d850-4f6a-991e-4290e8af1f11",
+      "trackId": "5bec93fc-a03d-4dea-a580-f53a92c54257",
+      "name": "Build your ETH Denver project  using the Liquality SDK ",
+      "description": "<p>While focusing on your web3 project and pitch, easily add seedless frictionless wallets and powerful web3 functionality (swap, NFTs) with the help of Liquality SDKs.</p>",
+      "acceptanceCriteria": "<p>1. Using Liquality SDKs</p><p>2. Emailing the github and the pitch deck <br>where you describe the use of these SDKs to &nbsp; ethdenver@liquality.io</p><p>3. Listing benefits and challenges you encountered in the developer experience, including documented bug fixes</p>",
+      "logoUrl": null,
+      "approvalStatus": "accepted",
+      "submittedByOrgId": "35a8218f-3917-4a9e-ad4f-9c5d3569d6e8",
+      "submittedByOrgName": "Liquality",
+      "submittedByOrgLogo": "https://org-resources.s3.amazonaws.com/35a8218f-3917-4a9e-ad4f-9c5d3569d6e8/logo/logo.jpg",
+      "tags": [
+        "DeFi",
+        "ReFi",
+        "NFTs",
+        "Web3 Social",
+        "Infrastructure",
+        "Exchange",
+        "Gaming",
+        "DAO",
+        "Art",
+        "Decentralized Identity",
+        "Non-profit",
+        "In-person Events",
+        "Security",
+        "Ethereum"
+      ],
+      "rewardPool": null,
+      "rewardChain": "Ethereum",
+      "rewardToken": "ETH",
+      "resources": [
+        {
+          "resourceUrl": "https://www.youtube.com/watch?v=TbaZIUpOO80",
+          "description": "Bounty video"
+        },
+        {
+          "resourceUrl": "https://www.liquality.io/ethdenver",
+          "description": "Liquality Bounties , Events and Documentation"
+        },
+        {
+          "resourceUrl": "https://vimeo.com/manage/videos/800488445",
+          "description": "Bounties Video"
+        },
+        {
+          "resourceUrl": "https://vimeo.com/manage/videos/800501407",
+          "description": "Judging Video"
+        },
+        {
+          "resourceUrl": "https://www.eventbrite.com/e/irl-liquality-ethdenver-hacker-kickoff-session-tickets-539422847257",
+          "description": "1st IRL Hacker event "
+        },
+        {
+          "resourceUrl": "https://discord.com/invite/VQUXUQdFTB",
+          "description": "Liquality hacker discord"
+        },
+        {
+          "resourceUrl": "https://demo.liquality.io/",
+          "description": "SDK documentation"
+        }
+      ],
+      "rewards": [
+        {
+          "winnerRank": 0,
+          "rewardAmountUsd": "1000"
+        },
+        {
+          "winnerRank": 1,
+          "rewardAmountUsd": "1000"
+        },
+        {
+          "winnerRank": 2,
+          "rewardAmountUsd": "1000"
+        },
+        {
+          "winnerRank": 3,
+          "rewardAmountUsd": "1000"
+        },
+        {
+          "winnerRank": 4,
+          "rewardAmountUsd": "1000"
+        }
+      ],
+      "judgingParameters": [
+        {
+          "parameter": "Use of SDK in project",
+          "maxScore": "80"
+        },
+        {
+          "parameter": "Listing benefits and challenges you encountered in the developer experience, including documented bug fixes",
+          "maxScore": "20"
+        }
+      ],
+      "minJudgeCount": 2,
+      "resultPublished": false
+    },
+    {
+      "challengeId": "96097f96-b5a0-48ab-835f-95d8f76d9364",
+      "trackId": "5bec93fc-a03d-4dea-a580-f53a92c54257",
+      "name": "Most interesting use of the Liquality SDK in  a dApp",
+      "description": "<p>Build your dApp using the Liquality SDK to provide the best user experience while accelerating your speed of development. You can use the SDK to enable: </p><ul><li><p>better authorization &amp; onboarding via seedless in-app self-custodial wallets </p></li><li><p>token swaps and transfers</p></li><li><p>NFT minting &amp; collection creation</p></li><li><p>accounts &amp; balances</p></li></ul>",
+      "acceptanceCriteria": "<p>1. Using Liquality SDKs to solve a problem</p><p>2. Added value by creatively extending features, and/or using the SDKs in other interesting ways</p><p>3. Listing benefits and challenges you encountered in the developer experience including documented bug fixes</p><p>4. Documenting path to decisions made, additional not realised ideas etc</p><p>5. Nice to have: additional use cases, monetization models, position of your idea within web3 competitive landscape.</p>",
+      "logoUrl": null,
+      "approvalStatus": "accepted",
+      "submittedByOrgId": "35a8218f-3917-4a9e-ad4f-9c5d3569d6e8",
+      "submittedByOrgName": "Liquality",
+      "submittedByOrgLogo": "https://org-resources.s3.amazonaws.com/35a8218f-3917-4a9e-ad4f-9c5d3569d6e8/logo/logo.jpg",
+      "tags": [
+        "Infrastructure",
+        "Gaming",
+        "BNB Chain",
+        "RSK",
+        "Avalanche",
+        "Polygon",
+        "Layer 2s / sidechains",
+        "Ethereum",
+        "Exchange",
+        "Web3 Social",
+        "NFTs",
+        "DeFi"
+      ],
+      "rewardPool": null,
+      "rewardChain": "Ethereum",
+      "rewardToken": "USDC",
+      "resources": [
+        {
+          "resourceUrl": "https://www.youtube.com/watch?v=TbaZIUpOO80",
+          "description": "Bounty video"
+        },
+        {
+          "resourceUrl": "https://www.liquality.io/ethdenver",
+          "description": "Liquality EthDenver Info"
+        },
+        {
+          "resourceUrl": "https://www.eventbrite.com/e/irl-liquality-ethdenver-hacker-kickoff-session-tickets-539422847257",
+          "description": "Hacker Kick-Off Workshop"
+        },
+        {
+          "resourceUrl": "https://demo.liquality.io/",
+          "description": "Demo Site"
+        },
+        {
+          "resourceUrl": "https://www.npmjs.com/package/@liquality/wallet",
+          "description": "npm SDK package"
+        },
+        {
+          "resourceUrl": "https://github.com/liquality/wallet-api",
+          "description": "Open-source Code"
+        }
+      ],
+      "rewards": [
+        {
+          "winnerRank": 0,
+          "rewardAmountUsd": "3500"
+        },
+        {
+          "winnerRank": 1,
+          "rewardAmountUsd": "1500"
+        }
+      ],
+      "judgingParameters": [
+        {
+          "parameter": "Using Liquality SDKs to solve a problem",
+          "maxScore": "30"
+        },
+        {
+          "parameter": "Added value by creatively extending features, and/or using the SDKs in other interesting ways",
+          "maxScore": "15"
+        },
+        {
+          "parameter": "Listing benefits and challenges you encountered in the developer experience including documented bug fixes",
+          "maxScore": "15"
+        },
+        {
+          "parameter": "Documenting path to decisions made, additional not realised ideas etc",
+          "maxScore": "15"
+        },
+        {
+          "parameter": "Viability of use case and monetization",
+          "maxScore": "15"
+        },
+        {
+          "parameter": "Creativity",
+          "maxScore": "10"
+        }
+      ],
+      "minJudgeCount": 2,
       "resultPublished": false
     },
     {
@@ -11287,6 +11537,194 @@
         }
       ],
       "minJudgeCount": 1,
+      "resultPublished": false
+    },
+    {
+      "challengeId": "068911f9-d162-4568-acf0-0919d3c790d5",
+      "trackId": "5bec93fc-a03d-4dea-a580-f53a92c54257",
+      "name": "Most Liquality SDK functionalities integrated in a game",
+      "description": "<p>Integrate as many functionalities from the Liquality SDK as possible into a web3 game and provide the best user experience while accelerating your speed of development. You can use the SDK to enable:&nbsp;<br></p><ul><li><p>better authorization &amp; onboarding via seedless in-app self-custodial wallets <br></p></li><li><p>token swaps and transfers<br></p></li><li><p>NFT minting &amp; collection creation<br></p></li><li><p>accounts &amp; balances</p></li></ul>",
+      "acceptanceCriteria": "<p>1. Using Liquality SDKs to add web3 features and onboarding, and game still works</p><p>2. Using the most functionalities from the SDK in the project</p><p>3. Listing benefits and challenges you encountered in the developer experience, including documented bug fixes</p><p>4. Documenting path to decisions made, additional not realized ideas etc</p><p>5. Nice to have: additional use cases, monetization models, competitors/other beneficiaries, etc.</p>",
+      "logoUrl": null,
+      "approvalStatus": "accepted",
+      "submittedByOrgId": "35a8218f-3917-4a9e-ad4f-9c5d3569d6e8",
+      "submittedByOrgName": "Liquality",
+      "submittedByOrgLogo": "https://org-resources.s3.amazonaws.com/35a8218f-3917-4a9e-ad4f-9c5d3569d6e8/logo/logo.jpg",
+      "tags": [
+        "NFTs",
+        "Gaming",
+        "Layer 2",
+        "Ethereum",
+        "Layer 2s / sidechains",
+        "Polygon",
+        "Avalanche",
+        "BNB Chain"
+      ],
+      "rewardPool": null,
+      "rewardChain": "Ethereum",
+      "rewardToken": "ETH",
+      "resources": [
+        {
+          "resourceUrl": "https://www.youtube.com/watch?v=TbaZIUpOO80",
+          "description": "Bounty video"
+        },
+        {
+          "resourceUrl": "https://docs.liquality.io/",
+          "description": "Docs"
+        },
+        {
+          "resourceUrl": "https://www.liquality.io/ethdenver",
+          "description": "Website Resources"
+        },
+        {
+          "resourceUrl": "https://discord.com/invite/VQUXUQdFTB",
+          "description": "Discord - hackathon channel"
+        },
+        {
+          "resourceUrl": "https://www.eventbrite.com/e/irl-liquality-ethdenver-hacker-kickoff-session-tickets-539422847257",
+          "description": "Hacker Kick-Off Event"
+        },
+        {
+          "resourceUrl": "https://www.npmjs.com/package/@liquality/wallet",
+          "description": "SDK package"
+        },
+        {
+          "resourceUrl": "https://github.com/liquality/wallet-api",
+          "description": "Open-source code"
+        }
+      ],
+      "rewards": [
+        {
+          "winnerRank": 0,
+          "rewardAmountUsd": "3500"
+        },
+        {
+          "winnerRank": 1,
+          "rewardAmountUsd": "1500"
+        }
+      ],
+      "judgingParameters": [
+        {
+          "parameter": "Using Liquality SDK in a working game",
+          "maxScore": "40"
+        },
+        {
+          "parameter": "Number of functionalities used",
+          "maxScore": "20"
+        },
+        {
+          "parameter": "Documenting path to decisions made, experience developing with the SDK and additional not realized ideas etc",
+          "maxScore": "20"
+        },
+        {
+          "parameter": "Use case viability",
+          "maxScore": "10"
+        },
+        {
+          "parameter": "Creativity",
+          "maxScore": "10"
+        }
+      ],
+      "minJudgeCount": 2,
+      "resultPublished": false
+    },
+    {
+      "challengeId": "8ae91354-b16f-4da5-9941-f93dbfcc2102",
+      "trackId": "5bec93fc-a03d-4dea-a580-f53a92c54257",
+      "name": "Most functionalities integrated  of Liquality SDKs in a decentralized social media project",
+      "description": "<p>Integrate as many functionalities from the Liquality SDK as possible into a decentralized social media project and provide the best user experience while accelerating your speed of development. You can use the SDK to enable:&nbsp;</p><ul><li><p>better authorization &amp; onboarding via seedless in-app self-custodial wallets </p></li><li><p>token swaps and transfers</p></li><li><p>NFT minting &amp; collection creation</p></li><li><p>accounts &amp; balances</p></li></ul>",
+      "acceptanceCriteria": "<p>1. Using Liquality SDKs in a decentralized <br>social media project</p><p>2. Using the most functionalities from the SDK in the project</p><p>3. Listing benefits and challenges you encountered <br>in the developer experience including documented bug fixes</p><p>4. Documenting path to decisions made, additional <br>not realized ideas, etc.</p><p>5. Nice to have: additional use cases, monetization models, competitors/other beneficiaries etc.</p>",
+      "logoUrl": null,
+      "approvalStatus": "accepted",
+      "submittedByOrgId": "35a8218f-3917-4a9e-ad4f-9c5d3569d6e8",
+      "submittedByOrgName": "Liquality",
+      "submittedByOrgLogo": "https://org-resources.s3.amazonaws.com/35a8218f-3917-4a9e-ad4f-9c5d3569d6e8/logo/logo.jpg",
+      "tags": [
+        "NFTs",
+        "Infrastructure",
+        "Web3 Social",
+        "Layer 1",
+        "Layer 2",
+        "Decentralized Identity",
+        "Ethereum",
+        "Layer 2s / sidechains",
+        "Polygon",
+        "BNB Chain"
+      ],
+      "rewardPool": null,
+      "rewardChain": "Ethereum",
+      "rewardToken": "ETH",
+      "resources": [
+        {
+          "resourceUrl": "https://www.youtube.com/watch?v=TbaZIUpOO80",
+          "description": "Bounty video"
+        },
+        {
+          "resourceUrl": "https://www.liquality.io/ethdenver",
+          "description": "Online Resources"
+        },
+        {
+          "resourceUrl": "https://docs.liquality.io/",
+          "description": "Docs"
+        },
+        {
+          "resourceUrl": "https://vimeo.com/manage/videos/800501407",
+          "description": "Judging Video"
+        },
+        {
+          "resourceUrl": "https://www.eventbrite.com/e/irl-liquality-ethdenver-hacker-kickoff-session-tickets-539422847257",
+          "description": "First of daily hacker kick-off breakfast"
+        },
+        {
+          "resourceUrl": "https://discord.com/invite/VQUXUQdFTB",
+          "description": "Discord - hackathon channel"
+        },
+        {
+          "resourceUrl": "https://demo.liquality.io/",
+          "description": "Demo site"
+        },
+        {
+          "resourceUrl": "https://www.npmjs.com/package/@liquality/wallet",
+          "description": "SDK package"
+        },
+        {
+          "resourceUrl": "https://github.com/liquality/wallet-api",
+          "description": "Open-source code"
+        }
+      ],
+      "rewards": [
+        {
+          "winnerRank": 0,
+          "rewardAmountUsd": "3500"
+        },
+        {
+          "winnerRank": 1,
+          "rewardAmountUsd": "1500"
+        }
+      ],
+      "judgingParameters": [
+        {
+          "parameter": "Using Liquality SDKs in a decentralized  social media project",
+          "maxScore": "30"
+        },
+        {
+          "parameter": "Using the most functionalities from the SDK in the project",
+          "maxScore": "20"
+        },
+        {
+          "parameter": "Documenting path to decisions made, experience developing with the SDK, bugs, additional  not realized ideas, etc.",
+          "maxScore": "20"
+        },
+        {
+          "parameter": "Use case viability",
+          "maxScore": "20"
+        },
+        {
+          "parameter": "Creativity",
+          "maxScore": "10"
+        }
+      ],
+      "minJudgeCount": 2,
       "resultPublished": false
     },
     {
@@ -11372,9 +11810,132 @@
       ],
       "minJudgeCount": 8,
       "resultPublished": false
+    },
+    {
+      "challengeId": "91e8977d-7406-4ae4-942b-97e8d93858c7",
+      "trackId": "5bec93fc-a03d-4dea-a580-f53a92c54257",
+      "name": "Best Lens app",
+      "description": "<p>Best web3 social app built using Lens Protocol</p>",
+      "acceptanceCriteria": "<p>Social web or mobile app built using Lens Protocol APIs. Code should be available to review in some public repository like GitHub.</p><p>Apps will be judged on the following criteria:</p><ul><li><p>Originality</p></li><li><p>UX</p></li><li><p>UI / design</p></li><li><p>Real-world usefulness</p></li><li><p>Potential</p></li></ul>",
+      "logoUrl": null,
+      "approvalStatus": "accepted",
+      "submittedByOrgId": "50624e27-d42b-4a14-9aff-74c30023be5f",
+      "submittedByOrgName": "Lens Protocol",
+      "submittedByOrgLogo": "https://org-resources.s3.amazonaws.com/50624e27-d42b-4a14-9aff-74c30023be5f/logo/logo.jpg",
+      "tags": ["Web3 Social"],
+      "rewardPool": null,
+      "rewardChain": "Ethereum",
+      "rewardToken": "USDC",
+      "resources": [
+        {
+          "resourceUrl": "https://docs.lens.xyz/docs",
+          "description": "Lens docs"
+        },
+        {
+          "resourceUrl": "https://aave.notion.site/Hackathons-d7411f54ef4547a99104fb6df4ac236b",
+          "description": "Lens hackathon resources"
+        },
+        {
+          "resourceUrl": "https://aave.notion.site/Inspiration-for-Builders-1db7dbd3e7b14eaf9a97a341b1a3ff55",
+          "description": "Lens inspiration for builders"
+        },
+        {
+          "resourceUrl": "https://github.com/lens-protocol/lens-widgets",
+          "description": "Lens Widgets (for integrations) "
+        },
+        {
+          "resourceUrl": "https://docs.lens.xyz/docs/integrating-lens",
+          "description": "Lens Embeds (for integrations)"
+        }
+      ],
+      "rewards": [
+        {
+          "winnerRank": 0,
+          "rewardAmountUsd": "5000"
+        },
+        {
+          "winnerRank": 1,
+          "rewardAmountUsd": "5000"
+        }
+      ],
+      "judgingParameters": [
+        {
+          "parameter": "Originality",
+          "maxScore": "100"
+        },
+        {
+          "parameter": "UX",
+          "maxScore": "100"
+        },
+        {
+          "parameter": "UI/Design",
+          "maxScore": "100"
+        },
+        {
+          "parameter": "Real-World Usefulness",
+          "maxScore": "100"
+        },
+        {
+          "parameter": "Potential",
+          "maxScore": "100"
+        }
+      ],
+      "minJudgeCount": 1,
+      "resultPublished": false
+    },
+    {
+      "challengeId": "cc17629d-4029-4a64-8662-5e9d3ed862ff",
+      "trackId": "5bec93fc-a03d-4dea-a580-f53a92c54257",
+      "name": "Integrate Lens",
+      "description": "<p>Integrate Lens in some way to your application. Some ideas for what integrations are possible:</p><ul><li><p>Share to Lens button</p></li><li><p>Follow on Lens button</p></li><li><p>Sign in with Lens</p></li><li><p>Display a user’s profile using their EVM wallet address, profile ID, or handle</p></li><li><p>Display a user’s timeline of posts using their EVM wallet address, profile ID, or handle</p></li></ul>",
+      "acceptanceCriteria": "<p>Working demo of a Lens feature in your app.</p>",
+      "logoUrl": null,
+      "approvalStatus": "accepted",
+      "submittedByOrgId": "50624e27-d42b-4a14-9aff-74c30023be5f",
+      "submittedByOrgName": "Lens Protocol",
+      "submittedByOrgLogo": "https://org-resources.s3.amazonaws.com/50624e27-d42b-4a14-9aff-74c30023be5f/logo/logo.jpg",
+      "tags": ["Web3 Social"],
+      "rewardPool": "10000",
+      "rewardChain": "Ethereum",
+      "rewardToken": "USDC",
+      "resources": [
+        {
+          "resourceUrl": "https://docs.lens.xyz/docs",
+          "description": "Lens docs"
+        },
+        {
+          "resourceUrl": "https://aave.notion.site/Hackathons-d7411f54ef4547a99104fb6df4ac236b",
+          "description": "Lens hackathon resources"
+        },
+        {
+          "resourceUrl": "https://aave.notion.site/Inspiration-for-Builders-1db7dbd3e7b14eaf9a97a341b1a3ff55",
+          "description": "Lens inspiration for builders"
+        },
+        {
+          "resourceUrl": "https://github.com/lens-protocol/lens-widgets",
+          "description": "Lens Widgets (for integrations) "
+        },
+        {
+          "resourceUrl": "https://docs.lens.xyz/docs/integrating-lens",
+          "description": "Lens Embeds (for integrations)"
+        }
+      ],
+      "rewards": [],
+      "judgingParameters": [
+        {
+          "parameter": "Lens Integration",
+          "maxScore": "100"
+        },
+        {
+          "parameter": "Functionality",
+          "maxScore": "100"
+        }
+      ],
+      "minJudgeCount": 1,
+      "resultPublished": false
     }
   ],
   "hackathonId": "7188260a-2241-4b6f-b8ab-f71842dbe944",
-  "total": 174,
+  "total": 180,
   "page": 1
 }
