@@ -25,17 +25,6 @@ export function getStaticProps(context) {
 }
 
 const Bounty = ({ bounty }) => {
-  const description = bounty.description
-    .replace(/<p>|<\/p>/g, '\n')
-    .replace(/<\/?[^>]+(>|$)/g, '')
-    .replace(/\n+/g, '\n')
-    .trim();
-  const acceptanceCriteria = bounty.acceptanceCriteria
-    .replace(/<p>|<\/p>/g, '\n')
-    .replace(/<\/?[^>]+(>|$)/g, '')
-    .replace(/\n+/g, '\n')
-    .trim();
-
   const [show, setShow] = useState(false);
 
   return (
@@ -45,9 +34,9 @@ const Bounty = ({ bounty }) => {
       </div>
       <h1 className="text-xl font-bold">{bounty.name}</h1>
       <h4 className="text-xl mt-6">Description</h4>
-      <p className="whitespace-pre-wrap">{description}</p>
+      <p className="whitespace-pre-wrap" dangerouslySetInnerHTML={{ __html: bounty.description }} />
       <h4 className="text-xl mt-6">Acceptance criteria</h4>
-      <p className="whitespace-pre-wrap">{acceptanceCriteria}</p>
+      <div className="whitespace-pre-wrap" dangerouslySetInnerHTML={{ __html: bounty.acceptanceCriteria }} />
       <h4 className="text-xl mt-6">Rewards</h4>
       {bounty.rewardPool ? (
         <p>{bounty.rewardPool} reward pool</p>
