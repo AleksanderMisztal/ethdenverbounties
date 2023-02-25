@@ -32,11 +32,15 @@ const Bounty = ({ bounty }) => {
       <div className="bg-green-900 rounded-lg p-2 mt-3 mb-6 w-fit">
         <Link href="/">Back</Link>
       </div>
+
       <h1 className="text-xl font-bold">{bounty.name}</h1>
+
       <h4 className="text-xl mt-6">Description</h4>
       <p className="whitespace-pre-wrap" dangerouslySetInnerHTML={{ __html: bounty.description }} />
+
       <h4 className="text-xl mt-6">Acceptance criteria</h4>
       <div className="whitespace-pre-wrap" dangerouslySetInnerHTML={{ __html: bounty.acceptanceCriteria }} />
+
       <h4 className="text-xl mt-6">Rewards</h4>
       {bounty.rewardPool ? (
         <p>{bounty.rewardPool} reward pool</p>
@@ -50,6 +54,7 @@ const Bounty = ({ bounty }) => {
         </ul>
       )}
 
+      <h4 className="text-xl mt-6">Resources</h4>
       {bounty.resources && (
         <dl>
           {bounty.resources.map(({description, resourceUrl}) => (
