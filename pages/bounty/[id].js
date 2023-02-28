@@ -36,10 +36,10 @@ const Bounty = ({ bounty }) => {
       <h1 className="text-xl font-bold">{bounty.name}</h1>
 
       <h4 className="text-xl mt-6">Description</h4>
-      <p className="whitespace-pre-wrap" dangerouslySetInnerHTML={{ __html: bounty.description }} />
+      {/* <p className="whitespace-pre-wrap" dangerouslySetInnerHTML={{ __html: bounty.description }} /> */}
 
       <h4 className="text-xl mt-6">Acceptance criteria</h4>
-      <div className="whitespace-pre-wrap" dangerouslySetInnerHTML={{ __html: bounty.acceptanceCriteria }} />
+      {/* <div className="whitespace-pre-wrap" dangerouslySetInnerHTML={{ __html: bounty.acceptanceCriteria }} /> */}
 
       <h4 className="text-xl mt-6">Rewards</h4>
       {bounty.rewardPool ? (
@@ -61,9 +61,9 @@ const Bounty = ({ bounty }) => {
             <div key={i}>
               <dt className="font-bold text-l">{description}</dt>
               <dd>
-                <a href={resourceUrl} target="_blank">
-                  {resourceUrl.match(/https:\/\/www.youtube.com\/watch\?v=([^/]*)/) ? (
-                    <iframe width="800" height="450" src={`https://www.youtube-nocookie.com/embed/${resourceUrl.match(/https:\/\/www.youtube.com\/watch\?v=([^/]*)/)[1]}`} frameborder="0" allow="autoplay; encrypted-media" allowfullscreen />
+                <a href={resourceUrl.replace(/\)$/, '')} target="_blank">
+                  {resourceUrl.match(/https:\/\/www.youtube.com\/watch\?v=([^/)]*)/) ? (
+                    <iframe width="800" height="450" src={`https://www.youtube-nocookie.com/embed/${resourceUrl.match(/https:\/\/www.youtube.com\/watch\?v=([^/)]*)/)[1]}`} frameborder="0" allow="autoplay; encrypted-media" allowfullscreen />
                   ) : resourceUrl}
                 </a>
               </dd>
