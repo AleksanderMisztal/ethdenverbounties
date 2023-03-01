@@ -62,8 +62,8 @@ const Bounty = ({ bounty }) => {
               <dt className="font-bold text-l">{description}</dt>
               <dd>
                 <a href={resourceUrl.replace(/\)$/, '')} target="_blank">
-                  {resourceUrl.match(/https:\/\/www.youtube.com\/watch\?v=([^/)]*)/) ? (
-                    <iframe width="800" height="450" src={`https://www.youtube-nocookie.com/embed/${resourceUrl.match(/https:\/\/www.youtube.com\/watch\?v=([^/)]*)/)[1]}`} frameborder="0" allow="autoplay; encrypted-media" allowfullscreen />
+                  {resourceUrl.match(/https:\/\/www.youtube.com\/watch\?v=([^/&)]*)/) ? (
+                    <iframe width="800" height="450" src={`https://www.youtube-nocookie.com/embed/${resourceUrl.match(/https:\/\/www.youtube.com\/watch\?v=([^/)&]*)/)[1]}`} frameborder="0" allow="autoplay; encrypted-media" allowfullscreen />
                   ) : resourceUrl}
                 </a>
               </dd>
